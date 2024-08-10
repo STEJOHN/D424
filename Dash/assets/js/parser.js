@@ -51,8 +51,6 @@ export function loadPeopleData() {
             shift: managersData[key].shift,
           }));
 
-          console.log("People data loaded from Firebase:", people);
-          console.log("Managers data loaded from Firebase:", managers);
           return { people, managers };
         })
         .catch((error) => {
