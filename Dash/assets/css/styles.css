@@ -1,0 +1,115 @@
+.employee-detail {
+  margin-bottom: 10px;
+}
+
+.spacer {
+  width: 8px;
+}
+
+.progress-bar {
+  background-color: rgb(73, 148, 178);
+}
+
+.progress-title {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.panel-heading.note-toolbar {
+  text-align: center;
+}
+
+.progress {
+  height: 4px;
+}
+
+.select2-container--default .select2-selection--multiple {
+  width: 70%;
+}
+
+tr.highlight {
+  background-color: #fffdcc;
+}
+
+tr.totals-row {
+  font-weight: bold;
+  background-color: #dddddd;
+}
+
+#performanceTable th,
+#performanceTable td {
+  white-space: nowrap;
+}
+
+.manager-container {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.tech-item {
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 5px;
+  cursor: move;
+}
+td,
+th {
+  white-space: pre-wrap;
+  text-wrap: nowrap;
+}
+
+.manager-container {
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #2b2b2b;
+  min-height: 200px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.tech-item {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: grab;
+  user-select: none;
+  border: 1px solid #555;
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+.tech-item.is-dragging {
+  opacity: 0.8;
+  cursor: grabbing;
+  animation: scaleUp 0.2s forwards;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dragula-placeholder {
+  background-color: #555;
+  border: 2px dashed #777;
+  border-radius: 4px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.tech-item:hover {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}

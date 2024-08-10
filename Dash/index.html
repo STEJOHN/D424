@@ -1,0 +1,905 @@
+<html
+  lang="en"
+  data-layout-mode="fluid"
+  data-topbar-color="light"
+  data-menu-color="dark"
+  data-bs-theme="dark"
+  data-layout-position="fixed"
+  data-sidenav-size="full"
+  class="menuitem-active"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>DC Dashboard</title>
+
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <!-- Plugin css -->
+    <link
+      href="assets/vendor/select2/css/select2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="assets/js/hyper-config.js"></script>
+
+    <link
+      href="assets/css/app-modern.min.css"
+      rel="stylesheet"
+      type="text/css"
+      id="app-style"
+    />
+
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//cdn.datatables.net/2.1.3/css/dataTables.dataTables.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.51.0/apexcharts.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css"
+    />
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js"
+      type="module"
+    ></script>
+  </head>
+
+  <body class="show">
+    <!-- Begin page -->
+    <div class="wrapper">
+      <!-- ========== Topbar Start ========== -->
+      <div class="navbar-custom">
+        <div class="topbar container-fluid">
+          <div class="d-flex align-items-center gap-lg-2 gap-1">
+            <!-- Topbar Brand Logo -->
+            <div class="logo-topbar">
+              <h4 class="page-title">DC Dashboard</h4>
+            </div>
+          </div>
+
+          <ul class="topbar-menu d-flex align-items-center gap-3">
+            <li class="d-none d-sm-inline-block">
+              <div
+                class="nav-link"
+                id="light-dark-mode"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                aria-label="Theme Mode"
+                data-bs-original-title="Theme Mode"
+              >
+                <i class="ri-moon-line font-22"></i>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle arrow-none nav-user px-2"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+              >
+                <span class="d-lg-flex flex-column gap-1">
+                  <h5 class="my-0">Menu</h5>
+                </span>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-end dropdown-menu-animated profile-dropdown"
+              >
+                <!-- item-->
+                <a
+                  href="#;"
+                  class="dropdown-item"
+                  onclick="handleClickAndReload()"
+                >
+                  <i class="mdi mdi-account-circle me-1"></i>
+                  <span>Start</span>
+                </a>
+
+                <!-- item-->
+                <a
+                  href="#;"
+                  class="dropdown-item"
+                  id="openEditorBtn"
+                  style="display: none"
+                >
+                  <i class="mdi mdi-account-edit me-1"></i>
+                  <span>Create Report</span>
+                </a>
+                <a
+                  href="#;"
+                  class="dropdown-item"
+                  id="openManageTeams"
+                  onclick="createAndShowModal()"
+                >
+                  <i class="mdi mdi-account-edit me-1"></i>
+                  <span>Manage Teams</span>
+                </a>
+                <!-- <a href="#" class="dropdown-item" id="exportLogBtn">
+                  <i class="mdi mdi-account-edit me-1"></i>
+                  <span>Download Logs</span>
+                </a> -->
+                <a href="#" class="dropdown-item" id="logoutBtn">
+                  <i class="mdi mdi-account-edit me-1"></i>
+                  <span>Logout</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ========== Topbar End ========== -->
+
+      <!-- ============================================================== -->
+      <!-- Start Page Content here -->
+      <!-- ============================================================== -->
+
+      <div class="content-page">
+        <div class="content">
+          <!-- Start Content-->
+          <div class="container-fluid">
+            <!-- start page title -->
+            <div class="row">
+              <div class="col-12">
+                <div class="page-title-box">
+                  <div class="page-title-right"></div>
+                  <h4 class="page-title"></h4>
+                </div>
+              </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+              <div class="col-xxl-9">
+                <div class="row">
+                  <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar-sm">
+                              <span
+                                class="avatar-title bg-warning-lighten text-warning rounded"
+                              >
+                                <i class="mdi mdi-folder-plus font-24"></i>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <h5 class="mt-0 mb-1">Created By Metro</h5>
+                            <h3 class="mb-0" id="totalCreated"></h3>
+                          </div>
+                          <div class="dropdown float-end">
+                            <span id="arrowIndicatorCreated"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar-sm">
+                              <span
+                                class="avatar-title bg-primary-lighten text-primary rounded"
+                              >
+                                <i class="mdi mdi-account-group font-24"></i>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <h5 class="mt-0 mb-1">Resolved By Metro</h5>
+                            <h3 class="mb-0" id="resolvedTasks"></h3>
+                          </div>
+                          <div class="dropdown float-end">
+                            <span id="arrowIndicatorResolved"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar-sm">
+                              <span
+                                class="avatar-title bg-success-lighten text-success rounded"
+                              >
+                                <i class="mdi mdi-account-star font-24"></i>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <h5 class="mt-0 mb-1">Resolved By Region 1</h5>
+                            <h3 class="mb-0" id="resolvedSN"></h3>
+                          </div>
+                          <div class="dropdown float-end">
+                            <span id="arrowIndicatorResolvedSN"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar-sm">
+                              <span
+                                class="avatar-title bg-info-lighten text-info rounded"
+                              >
+                                <i class="mdi mdi-account-star font-24"></i>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <h5 class="mt-0 mb-1">Resolved By Region 2</h5>
+                            <h3 class="mb-0" id="resolvedSAT"></h3>
+                          </div>
+                          <div class="dropdown float-end">
+                            <span id="arrowIndicatorResolvedSAT"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end row -->
+
+                <div class="row">
+                  <div class="col-xl-6">
+                    <div class="card">
+                      <div
+                        class="card-header d-flex justify-content-between align-items-center"
+                      >
+                        <h4 class="header-title">Resolved By Shift</h4>
+                        <!-- <div>
+                          <button
+                            type="button"
+                            class="btn btn-soft-primary btn-sm"
+                          >
+                            12 Hr
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-soft-secondary btn-sm"
+                          >
+                            24 Hr
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-soft-secondary btn-sm"
+                          >
+                            7 Days
+                          </button>
+                        </div> -->
+                      </div>
+
+                      <div class="card-body pt-0">
+                        <div dir="ltr" class="mt-2">
+                          <div
+                            id="chart-line"
+                            class="apex-charts"
+                            data-colors="#ced1ff,#727cf5"
+                            style="min-height: 341px"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card">
+                      <div
+                        class="card-header d-flex justify-content-between align-items-center"
+                      >
+                        <h4 class="header-title">Resolved By Manager</h4>
+
+                        <select
+                          id="managerDropdown"
+                          class="form-select form-select-sm"
+                          style="width: 50%"
+                        >
+                          <!-- your options go here -->
+                        </select>
+                      </div>
+
+                      <div class="card-body">
+                        <div
+                          id="chart-donut"
+                          class="apex-charts mt-3"
+                          data-colors="#0acf97,#727cf5"
+                          style="min-height: 238.8px"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-3">
+                <div class="card">
+                  <div
+                    class="card-header d-flex justify-content-between align-items-center"
+                  >
+                    <h4 class="header-title">Workload Summary</h4>
+                  </div>
+                  <div
+                    class="alert alert-warning border-0 rounded-0"
+                    role="alert"
+                  >
+                    <i class="uil-folder-heart me-1 h4 align-middle"></i>
+                    <span id="lastUpdated"></span>
+                  </div>
+
+                  <div class="card-body pt-1">
+                    <div
+                      class="d-flex align-items-center border border-light rounded p-2 mb-2"
+                    >
+                      <div class="flex-shrink-0 me-2">
+                        <i
+                          class="mdi mdi-account-group widget-icon rounded-circle"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h5 class="fw-semibold my-0">Assigned</h5>
+                        <p class="mb-0" id="assignedTasks"></p>
+                      </div>
+                      <a
+                        href="#"
+                        class="text-muted"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        aria-label="Info"
+                        data-bs-original-title="Info"
+                        ><i
+                          class="mdi mdi-information-outline h4 my-0"
+                          id="assignedInfo"
+                        ></i
+                      ></a>
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center border border-light rounded p-2 mb-2"
+                    >
+                      <div class="flex-shrink-0 me-2">
+                        <i
+                          class="mdi mdi-progress-pencil widget-icon rounded-circle bg-warning-lighten text-warning"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h5 class="fw-semibold my-0">InProgress</h5>
+                        <p class="mb-0" id="inProgressTasks"></p>
+                      </div>
+                      <a
+                        href="#"
+                        class="text-muted"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        aria-label="Info"
+                        data-bs-original-title="Info"
+                        ><i
+                          class="mdi mdi-information-outline h4 my-0"
+                          id="inProgressInfo"
+                        ></i
+                      ></a>
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center border border-light rounded p-2 mb-2"
+                    >
+                      <div class="flex-shrink-0 me-2">
+                        <i
+                          class="mdi mdi-checkbox-marked-circle-outline widget-icon rounded-circle bg-danger-lighten text-danger"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h5 class="fw-semibold my-0">Hold</h5>
+                        <p class="mb-0" id="holdTasks"></p>
+                      </div>
+                      <a
+                        href="#"
+                        class="text-muted"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        aria-label="Info"
+                        data-bs-original-title="Info"
+                        ><i
+                          class="mdi mdi-information-outline h4 my-0"
+                          id="holdInfo"
+                        ></i
+                      ></a>
+                    </div>
+
+                    <div
+                      class="d-flex align-items-center border border-light rounded p-2 mb-2"
+                    >
+                      <div class="flex-shrink-0 me-2">
+                        <i
+                          class="mdi mdi-send widget-icon rounded-circle bg-success-lighten text-success"
+                        ></i>
+                      </div>
+                      <div class="flex-grow-1">
+                        <h5 class="fw-semibold my-0">Resolved</h5>
+                        <p class="mb-0" id="resolvedTickets"></p>
+                      </div>
+                      <a
+                        href="#"
+                        class="text-muted"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        aria-label="Info"
+                        data-bs-original-title="Info"
+                        ><i
+                          class="mdi mdi-information-outline h4 my-0"
+                          id="resolvedInfo"
+                        ></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div id="modalContainer"></div>
+            </div>
+            <div class="row">
+              <div class="col-xl">
+                <div class="card card-h-100">
+                  <div
+                    class="card-header d-flex justify-content-between align-items-center"
+                  >
+                    <h4 class="header-title mb-0">ASSIGNED TASK STATUS</h4>
+                  </div>
+                  <div id="dropdownContainer" style="visibility: hidden">
+                    <label for="managerDropdown_new">Select Manager:</label>
+                    <select
+                      id="managerDropdown_new"
+                      class="selectpicker"
+                    ></select>
+                  </div>
+                  <div
+                    class="card-body py-0 mb-3"
+                    id="treeMapChart"
+                    style="display: none"
+                  ></div>
+                  <div class="card-body py-0 mb-3" id="chart"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xl">
+                <div class="card card-h-100">
+                  <div
+                    class="card-header d-flex justify-content-between align-items-center"
+                  >
+                    <h4 class="header-title">Tasks Per Tech</h4>
+
+                    <select
+                      id="managerDropdown2"
+                      class="form-select form-select-sm"
+                      style="width: 30%"
+                    ></select>
+                    <select
+                      id="dateDropdown2"
+                      class="form-select form-select-sm"
+                      style="width: 30%"
+                    ></select>
+                  </div>
+
+                  <div
+                    class="card-body py-0 mb-3"
+                    id="employeeData"
+                    style="height: 300px; overflow: auto"
+                    data-simplebar="init"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="col-xl">
+                <div class="card card-h-100">
+                  <div
+                    class="card-header d-flex justify-content-between align-items-center"
+                  >
+                    <h4 class="header-title mb-0">DAILY TECH RANKING</h4>
+                  </div>
+
+                  <div class="card-body py-0 mb-3">
+                    <div class="table-container">
+                      <div
+                        id="shiftSelectorContainer"
+                        style="display: flex; align-items: center; width: 100%"
+                      >
+                        <select
+                          id="shiftSelector"
+                          class="form-select form-select-sm"
+                          style="width: auto"
+                        >
+                          <option value="A-Side Days">A-Side Days</option>
+                          <option value="B-Side Days">B-Side Days</option>
+                          <option value="A-Side Nights">A-Side Nights</option>
+                          <option value="B-Side Nights">B-Side Nights</option>
+                        </select>
+                        <div style="flex-grow: 1"></div>
+                        <button
+                          id="togglePerformance"
+                          class="btn btn-outline-primary"
+                          data-bs-toggle="button"
+                          aria-pressed="true"
+                        >
+                          High Performers
+                        </button>
+                      </div>
+                      <div
+                        class="card-header d-flex justify-content-between align-items-center"
+                      ></div>
+                      <table
+                        id="performanceTable"
+                        class="table table-striped"
+                        style="width: 100%"
+                      ></table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end row -->
+          </div>
+          <!-- container -->
+        </div>
+        <!-- content -->
+
+        <!-- Footer Start -->
+
+        <div class="row">
+          <div class="col-xl">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center"
+              >
+                <h4 class="header-title">TIME ON TASK VERIFICATION</h4>
+              </div>
+
+              <div class="card-body pt-0">
+                <div dir="ltr" class="mt-2"></div>
+                <div id="timeTableFilters">
+                  <select id="timeTechMgr"></select>
+                  <select id="timeTech"></select>
+                  <select id="timeTechDate"></select>
+                </div>
+                <div
+                  class="card-header d-flex justify-content-between align-items-center"
+                ></div>
+                <div
+                  id="timeTableContainer"
+                  style="height: 350px; overflow: auto"
+                  data-simplebar="init"
+                >
+                  <table id="timeTable" class="display">
+                    <thead>
+                      <tr style>
+                        <th>Name</th>
+                        <th>Task ID</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Total (hrs)</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center"
+              >
+                <h4 class="header-title">TIME ANALYSIS</h4>
+              </div>
+
+              <div class="card-body pt-0">
+                <div dir="ltr" class="mt-2">
+                  <div id="managerDropdownContainer" style="text-align: right">
+                    <select id="ranking_employee"></select>
+                  </div>
+                  <div id="dateDropdownContainer" style="text-align: right">
+                    <select id="ranking_date"></select>
+                  </div>
+                  <div id="rankingChartContainer">
+                    <div id="rankingChart"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">Created by : stejohn</div>
+
+              <div class="col-md-6">
+                <div class="text-md-end footer-links d-none d-md-block"></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- end Footer -->
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- End Page content -->
+      <!-- ============================================================== -->
+    </div>
+    <!-- END wrapper -->
+
+    <!-- Welcome modal -->
+    <div
+      class="modal fade"
+      id="centermodal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myCenterModalLabel">
+              Welcome to DC Dashboard
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-hidden="true"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p><b>Step 1</b></p>
+            <p>
+              Download data file
+              <a href="#" id="downloadLink">Here</a>
+            </p>
+            <p><b>Step 2</b></p>
+            <p>Locate the data file and upload below</p>
+            <div class="input-group">
+              <input
+                type="file"
+                id="upload-csv"
+                accept=".csv"
+                class="form-control"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Tech Modal -->
+    <div
+      class="modal fade"
+      id="employeeModal"
+      tabindex="-1"
+      aria-labelledby="employeeModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <div
+              class="d-flex card-header justify-content-between align-items-center"
+            >
+              <div class="container">
+                <h5 class="header-title mb-0" id="techName"></h5>
+                <h5 class="header-title mb-0" id="techDate"></h5>
+                <h5 class="header-title mb-0" id="techManager"></h5>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table id="data_table" class="table">
+              <thead>
+                <tr>
+                  <th>Task ID</th>
+                  <th>Name</th>
+                  <th>DC</th>
+                  <th>State</th>
+                  <th>Title</th>
+                  <th>Time Closed</th>
+                  <th>Time on Task</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Table content will be populated here -->
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--State Modal -->
+    <div
+      class="modal fade"
+      id="infoModal"
+      tabindex="-1"
+      aria-labelledby="infoModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoModalLabel">Task Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Table structure -->
+            <table id="taskTable" class="display">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>DC</th>
+                  <th>Manager</th>
+                  <th>State</th>
+                  <th>Title</th>
+                  <th>Task Type</th>
+                </tr>
+              </thead>
+              <tbody id="taskTableBody"></tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editor Modal -->
+    <div
+      class="modal fade"
+      id="summernoteModal"
+      tabindex="-1"
+      aria-labelledby="summernoteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="summernoteModalLabel">
+              Shift Outliers - Throughput Tracker
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Summernote Editor -->
+            <textarea id="summernote"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./assets/js/index.js"></script>
+    <script src="./assets/js/tasks.js"></script>
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="assets/vendor/select2/js/select2.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="assets/js/people.js"></script>
+    <script type="module" src="assets/js/parser.js"></script>
+    <script src="assets/js/data_mining.js"></script>
+    <script src="assets/js/variables.js"></script>
+    <script src="assets/js/editor.js"></script>
+    <script src="assets/js/shift_cal.js"></script>
+    <script type="module" src="assets/js/task_processor.js"></script>
+    <script src="assets/js/employee_card.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script src="assets/js/events.js"></script>
+    <script src="assets/js/groupedData.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script src="//cdn.datatables.net/2.1.3/js/dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+    <script type="module">
+      import { createAndShowModal } from "./assets/js/people.js";
+      window.createAndShowModal = createAndShowModal;
+    </script>
+    <script type="module" src="./assets/js/firebase-config.js"></script>
+    <script type="module" src="./assets/js/logout.js"></script>
+  </body>
+</html>

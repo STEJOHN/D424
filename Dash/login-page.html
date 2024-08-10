@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DC Dashboard Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: url("https://source.unsplash.com/1920x1080/?datacenter")
+          no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .login-container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+      .login-container h2 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+      .form-control {
+        background: rgba(255, 255, 255, 0.7);
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+      }
+      .btn-primary {
+        width: 100%;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+      .logout-btn {
+        display: none;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input
+          type="email"
+          id="email"
+          class="form-control"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          placeholder="Password"
+          aria-required="true"
+          required
+        />
+        <button
+          type="submit"
+          class="btn btn-primary"
+          aria-required="true"
+          required
+        >
+          Login
+        </button>
+      </form>
+      <button id="logoutBtn" class="btn btn-secondary logout-btn">
+        Logout
+      </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script type="module" src="./assets/js/firebase-config.js"></script>
+    <script type="module" src="./assets/js/login.js"></script>
+  </body>
+</html>
