@@ -356,22 +356,43 @@ export function createAndShowModal() {
   //   });
   // });
   drake.on("drop", function (el, target, source, sibling) {
+    const leftManagerSelect =
+      document.getElementById("leftManagerSelect").value;
+    const rightManagerSelect =
+      document.getElementById("rightManagerSelect").value;
+
     const newManager =
       target.id === "leftManagerContainer"
-        ? document.getElementById("leftManagerSelect").value
-        : document.getElementById("rightManagerSelect").value;
-    const techName = el.innerText;
+        ? leftManagerSelect
+        : rightManagerSelect;
+
+    const techName = el.innerText.trim();
     const techIndex = el.dataset.index;
 
+    console.log("Tech Name:", techName);
+    console.log("Tech Index:", techIndex);
+    console.log("New Manager (Selected):", newManager);
+
+    if (!newManager) {
+      console.error("New Manager is empty. Ensure that a manager is selected.");
+      return;
+    }
+
     if (newManager === el.dataset.manager) {
+      console.log("Manager is the same, no update needed.");
       refreshUI();
       return;
     }
 
+    // Retrieve the shift associated with the new manager
     getManagerShift(newManager)
       .then((shift) => {
-        if (!newManager || !shift) {
-          console.error("New manager or shift is not valid.");
+        console.log("Retrieved Shift:", shift);
+
+        if (!shift) {
+          console.error(
+            "Shift is empty or invalid. Ensure that the manager has an associated shift."
+          );
           return;
         }
 
@@ -380,8 +401,10 @@ export function createAndShowModal() {
           shift: shift,
         };
 
+        // Update the person's manager and shift in the database
         updatePersonByIndex(techIndex, updatedData)
           .then(() => {
+            console.log("Updated Tech Data:", updatedData);
             refreshUI();
           })
           .catch((error) => {
