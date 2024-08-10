@@ -13,8 +13,9 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
 import { j } from "./firebase-config.js";
 
-const app = initializeApp(j);
-const database = getDatabase(app);
+export const app = initializeApp(j);
+export const database = getDatabase(app);
+export const auth = getAuth(app);
 
 let actionLog = [];
 
@@ -331,6 +332,29 @@ export function createAndShowModal() {
     }
   );
 
+  // drake.on("drop", function (el, target, source, sibling) {
+  //   const newManager =
+  //     target.id === "leftManagerContainer"
+  //       ? document.getElementById("leftManagerSelect").value
+  //       : document.getElementById("rightManagerSelect").value;
+  //   const techName = el.innerText;
+  //   const techIndex = el.dataset.index;
+
+  //   if (newManager === el.dataset.manager) {
+  //     refreshUI();
+  //     return;
+  //   }
+
+  //   getManagerShift(newManager).then((shift) => {
+  //     const updatedData = {
+  //       manager: newManager,
+  //       shift: shift,
+  //     };
+  //     updatePersonByIndex(techIndex, updatedData).then(() => {
+  //       refreshUI();
+  //     });
+  //   });
+  // });
   drake.on("drop", function (el, target, source, sibling) {
     const newManager =
       target.id === "leftManagerContainer"
@@ -344,15 +368,32 @@ export function createAndShowModal() {
       return;
     }
 
-    getManagerShift(newManager).then((shift) => {
-      const updatedData = {
-        manager: newManager,
-        shift: shift,
-      };
-      updatePersonByIndex(techIndex, updatedData).then(() => {
-        refreshUI();
+    getManagerShift(newManager)
+      .then((shift) => {
+        if (!newManager || !shift) {
+          console.error("New manager or shift is not valid.");
+          return;
+        }
+
+        const updatedData = {
+          manager: newManager,
+          shift: shift,
+        };
+
+        updatePersonByIndex(techIndex, updatedData)
+          .then(() => {
+            refreshUI();
+          })
+          .catch((error) => {
+            console.error(
+              "Error updating tech with new manager and shift:",
+              error
+            );
+          });
+      })
+      .catch((error) => {
+        console.error("Error retrieving manager shift:", error);
       });
-    });
   });
 
   function createAndShowManagerModal() {

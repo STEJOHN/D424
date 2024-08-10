@@ -8,6 +8,8 @@ import {
   getDatabase,
   ref,
   get,
+  set,
+  remove,
 } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
 import { j } from "./firebase-config.js";
 
