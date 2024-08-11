@@ -11,10 +11,8 @@ const auth = getAuth(app);
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    // User is authenticated, show the body
     document.body.style.display = "block";
   } else {
-    // User is not authenticated, redirect to login page
     window.location.href = "login-page.html";
   }
 });

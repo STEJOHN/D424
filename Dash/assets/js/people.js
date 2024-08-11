@@ -361,6 +361,9 @@ export function createAndShowModal() {
     const rightManagerSelect =
       document.getElementById("rightManagerSelect").value;
 
+    console.log("Left Manager Select Value:", leftManagerSelect);
+    console.log("Right Manager Select Value:", rightManagerSelect);
+
     const newManager =
       target.id === "leftManagerContainer"
         ? leftManagerSelect
