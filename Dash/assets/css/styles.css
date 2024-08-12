@@ -113,3 +113,19 @@ th {
     transform: scale(1.05);
   }
 }
+
+.dt-search {
+  float: right;
+}
+
+.dt-button buttons-excel buttons-html5,
+.dt-button,
+.dt-buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.dt-input {
+  margin-right: 10px;
+}

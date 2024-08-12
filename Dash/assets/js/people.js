@@ -332,29 +332,6 @@ export function createAndShowModal() {
     }
   );
 
-  // drake.on("drop", function (el, target, source, sibling) {
-  //   const newManager =
-  //     target.id === "leftManagerContainer"
-  //       ? document.getElementById("leftManagerSelect").value
-  //       : document.getElementById("rightManagerSelect").value;
-  //   const techName = el.innerText;
-  //   const techIndex = el.dataset.index;
-
-  //   if (newManager === el.dataset.manager) {
-  //     refreshUI();
-  //     return;
-  //   }
-
-  //   getManagerShift(newManager).then((shift) => {
-  //     const updatedData = {
-  //       manager: newManager,
-  //       shift: shift,
-  //     };
-  //     updatePersonByIndex(techIndex, updatedData).then(() => {
-  //       refreshUI();
-  //     });
-  //   });
-  // });
   drake.on("drop", function (el, target, source, sibling) {
     const leftManagerSelect =
       document.getElementById("leftManagerSelect").value;
@@ -387,7 +364,6 @@ export function createAndShowModal() {
       return;
     }
 
-    // Retrieve the shift associated with the new manager
     getManagerShift(newManager)
       .then((shift) => {
         console.log("Retrieved Shift:", shift);
@@ -404,7 +380,6 @@ export function createAndShowModal() {
           shift: shift,
         };
 
-        // Update the person's manager and shift in the database
         updatePersonByIndex(techIndex, updatedData)
           .then(() => {
             console.log("Updated Tech Data:", updatedData);
@@ -466,10 +441,12 @@ export function createAndShowModal() {
 
     document.body.appendChild(managerModalContainer);
 
+    document.getElementById("managerNameInput").required = true;
+    document.getElementById("shiftInput").required = true;
+
     const managerModal = new bootstrap.Modal(
       document.getElementById("editManagerModal")
     );
-
     const managerActionSelect = document.getElementById("managerActionSelect");
     const managerNameContainer = document.getElementById(
       "managerNameContainer"
@@ -501,9 +478,21 @@ export function createAndShowModal() {
     });
 
     document.getElementById("saveManagerBtn").addEventListener("click", () => {
-      const managerName = document.getElementById("managerNameInput").value;
-      const shift = document.getElementById("shiftInput").value;
+      const managerName = document
+        .getElementById("managerNameInput")
+        .value.trim();
+      const shift = document.getElementById("shiftInput").value.trim();
       const action = managerActionSelect.value;
+
+      if (!managerName) {
+        Swal.fire("Manager name is required.");
+        return;
+      }
+
+      if (!shift) {
+        Swal.fire("Shift is required.");
+        return;
+      }
 
       if (action === "add") {
         addManager({ manager: managerName, shift: shift }).then(() => {
@@ -582,6 +571,9 @@ export function createAndShowModal() {
 
     document.body.appendChild(techModalContainer);
 
+    document.getElementById("techNameInput").required = true;
+    document.getElementById("managerSelectInput").required = true;
+
     const techModal = new bootstrap.Modal(
       document.getElementById("manageTechModal")
     );
@@ -634,10 +626,27 @@ export function createAndShowModal() {
     });
 
     document.getElementById("saveTechBtn").addEventListener("click", () => {
-      const techName = document.getElementById("techNameInput").value;
-      const manager = document.getElementById("managerSelectInput").value;
-      const shift = document.getElementById("shiftInput").value;
+      const techName = document.getElementById("techNameInput").value.trim();
+      const manager = document
+        .getElementById("managerSelectInput")
+        .value.trim();
+      const shift = document.getElementById("shiftInput").value.trim();
       const action = techActionSelect.value;
+
+      if (!techName) {
+        Swal.fire("Tech name is required.");
+        return;
+      }
+
+      if (!manager) {
+        Swal.fire("Manager is required.");
+        return;
+      }
+
+      if (!shift) {
+        Swal.fire("Shift is required.");
+        return;
+      }
 
       if (action === "add") {
         addPerson({ name: techName, manager, shift }).then(() => {

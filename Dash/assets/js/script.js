@@ -4,7 +4,7 @@ function handleFileSelect(event) {
   }
   const file = event.target.files[0];
   if (!file.name.endsWith(".csv")) {
-    alert("Please select a CSV file.");
+    Swal.fire("Please select a CSV file.");
     return;
   }
 }
@@ -412,7 +412,6 @@ function populateAndShowModal(taskDetails) {
     let managerName = "";
     taskSet.forEach((task) => {
       let employeeName = task[`Assigned To`].split(`<`)[0].trim();
-      console.log("en::,", employeeName);
       if (employeeName && peopleMap.has(employeeName)) {
         managerName = peopleMap.get(employeeName);
       }
@@ -420,13 +419,11 @@ function populateAndShowModal(taskDetails) {
       const row = `<tr>
       <td><a href="https://gdcoapp.trafficmanager.net/tasks/details/${task.Id}" target="_blank" rel="noopener noreferrer">${task.Id}</a></td>
       <td>${task["Assigned To"]}</td>
-    
       <td>${task["Datacenter Code"]}</td>
       <td>${managerName}</td>
       <td>${task["State"]}</td>
       <td>${betterDescription}</td>
       <td>${task["Task Type"]}</td>
-
     </tr>`;
       rows.push(row);
     });
@@ -440,6 +437,14 @@ function populateAndShowModal(taskDetails) {
 
   $("#taskTable").DataTable({
     retrieve: true,
+    dom: '<"top"lfB>rtip',
+    buttons: [
+      {
+        extend: "excel",
+        text: "Export to Excel",
+      },
+    ],
+    search: true,
   });
 
   $("#infoModal").modal("show");

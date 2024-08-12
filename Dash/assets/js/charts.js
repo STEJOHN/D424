@@ -1,5 +1,4 @@
 function apex1(dataObject) {
-  // Transform the dataObject into the required format for ApexCharts
   const transformedData = Object.keys(dataObject).map((key) => {
     return {
       name: key,
@@ -13,7 +12,7 @@ function apex1(dataObject) {
       height: 350,
     },
     theme: {
-      palette: "palette3", // upto palette10
+      palette: "palette3",
     },
     series: transformedData,
     xaxis: {
@@ -25,7 +24,6 @@ function apex1(dataObject) {
   chart.render();
 }
 function apex2(dataObject) {
-  // Extract the date dropdown and populate it with unique dates
   const dropdown = document.getElementById("managerDropdown");
 
   function getUniqueDatesFromData() {
@@ -36,9 +34,8 @@ function apex2(dataObject) {
     return [...new Set(allDates)];
   }
 
-  // Populate dropdown with unique dates
   const uniqueDates = getUniqueDatesFromData();
-  dropdown.innerHTML = ""; // Clear previous options
+  dropdown.innerHTML = "";
   uniqueDates.forEach((date) => {
     const option = document.createElement("option");
     option.value = date;
@@ -63,7 +60,6 @@ function apex2(dataObject) {
     };
   }
 
-  // Initialize the chart outside of the renderChart function
   var chart = new ApexCharts(document.getElementById("chart-donut"), {
     chart: {
       type: "pie",
@@ -83,10 +79,9 @@ function apex2(dataObject) {
         },
       },
       toolbar: {
-        // Moved out to be directly inside the chart object
         show: true,
         tools: {
-          download: true, // Enable the download (export) option
+          download: true,
           selection: true,
           zoom: true,
           zoomin: true,
@@ -98,10 +93,10 @@ function apex2(dataObject) {
       },
     },
     theme: {
-      palette: "palette3", // upto palette10
+      palette: "palette3",
     },
-    labels: [], // Initial labels - empty
-    series: [], // Initial series - empty
+    labels: [],
+    series: [],
     legend: {
       show: true,
       position: "bottom",
@@ -129,11 +124,9 @@ function apex2(dataObject) {
     });
   }
 
-  // Initialization: render the chart with the most recent data
   const mostRecentDate = uniqueDates[0];
   renderChart(getDataForDate(mostRecentDate));
 
-  // Set the most recent date as the default selected option in the dropdown
   dropdown.value = mostRecentDate;
   dropdown.addEventListener("change", function (e) {
     const selectedDate = e.target.value;

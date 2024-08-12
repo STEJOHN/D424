@@ -46,12 +46,11 @@ $(document).ready(function () {
         var clipboardData =
           e.originalEvent.clipboardData || window.clipboardData;
         var bufferText = clipboardData.getData("text/plain");
-        var bufferHtml = clipboardData.getData("text/html") || bufferText; // Fallback to plain text
+        var bufferHtml = clipboardData.getData("text/html") || bufferText;
 
         var div = document.createElement("div");
         div.innerHTML = bufferHtml;
 
-        // Remove unwanted tags and attributes while preserving <br> tags
         $(div)
           .find("*")
           .not("a, br")
@@ -65,12 +64,10 @@ $(document).ready(function () {
             $(this).replaceWith(this.childNodes);
           });
 
-        // Replace newlines with <br> tags
         $(div).html(function (index, html) {
           return html.replace(/\n/g, "<br>");
         });
 
-        // Remove all attributes from anchor tags except href
         $(div)
           .find("a")
           .each(function () {
@@ -86,7 +83,6 @@ $(document).ready(function () {
       },
     },
   });
-  // Open the modal when the "Create Report" dropdown item is clicked
   $("#openEditorBtn").click(function () {
     $("#summernoteModal").modal("show");
   });
@@ -107,10 +103,8 @@ function removeTags(str) {
   if (str === null || str === "") return false;
   else str = str.toString();
 
-  // Replace anchor tags with just their href attribute
   str = str.replace(/<a.*?href="(.*?)".*?>(.*?)<\/a>/gi, "$1");
 
-  // Remove all other HTML tags and attributes
   str = str.replace(/<[^>]*>?/gm, "");
 
   return str;

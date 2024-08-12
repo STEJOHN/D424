@@ -1,7 +1,6 @@
 let transformedData;
 function transformDataset(tasksByManager, people) {
   const formatDateKey = (dateStr) => {
-    // Extract date portion and format as 'MM/DD/YYYY'
     const dateParts = dateStr.split(" ")[1].split("/");
     const month = dateParts[0].padStart(2, "0");
     const day = dateParts[1].padStart(2, "0");
@@ -17,46 +16,40 @@ function transformDataset(tasksByManager, people) {
 
   const transformedData = {};
 
-  // Loop through managers
   for (const managerName in tasksByManager) {
     transformedData[managerName] = {};
     const managerData = tasksByManager[managerName];
 
-    // Loop through dates
     for (const dateKey in managerData.dates) {
       transformedData[managerName][dateKey] = {};
       const dateData = managerData.dates[dateKey];
 
-      // Loop through employees
       for (const employeeName in dateData.employees) {
         transformedData[managerName][dateKey][employeeName] = [];
 
-        // Retrieve the tasks and sort them by Work Start Date
         const tasks = dateData.employees[employeeName].tasks;
         tasks.sort(
           (a, b) =>
             new Date(a["Work Start Date"]) - new Date(b["Work Start Date"])
         );
 
-        // Calculate shift start and end times based on shift info
-        const shiftInfo = getShiftInfo(tasks[0]["Assigned To"]); // Use shift info from the first task
+        const shiftInfo = getShiftInfo(tasks[0]["Assigned To"]);
         let shiftStartHour, shiftEndHour;
         if (shiftInfo.includes("Mon - Fri")) {
           shiftStartHour = 8; // 8 AM
           shiftEndHour = 17; // 5 PM
         } else {
-          shiftStartHour = shiftInfo.includes("Days") ? 7 : 19; // 7 AM or 7 PM
-          shiftEndHour = shiftInfo.includes("Days") ? 19 : 7; // 7 PM or 7 AM
+          shiftStartHour = shiftInfo.includes("Days") ? 7 : 19;
+          shiftEndHour = shiftInfo.includes("Days") ? 19 : 7;
         }
 
-        let totalWorkedTime = 0; // New property for total time worked
-        let totalIdleTime = 0; // New property for total idle time
+        let totalWorkedTime = 0;
+        let totalIdleTime = 0;
 
         for (const [index, task] of tasks.entries()) {
           const startDate = new Date(task["Work Start Date"]);
           const endDate = new Date(task["Work End Date"]);
 
-          // Calculate duration from shift start for the first task
           let durationFromShiftStart = "";
           if (index === 0) {
             const minutes =
@@ -84,7 +77,6 @@ function transformDataset(tasksByManager, people) {
             }
           }
 
-          // Calculate duration from shift end for the last task
           let durationFromShiftEnd = "";
           if (index === tasks.length - 1) {
             const minutes =
@@ -109,15 +101,11 @@ function transformDataset(tasksByManager, people) {
             }
           }
 
-          // Calculate task duration
-          const taskDuration = (endDate - startDate) / (1000 * 60); // Duration in minutes
+          const taskDuration = (endDate - startDate) / (1000 * 60);
 
-          // Calculate total time worked and idle time
           if (taskDuration <= 720) {
-            // Exclude tasks longer than 12 hours
             totalWorkedTime += taskDuration;
 
-            // Check for task overlap with the previous task
             if (index > 0) {
               const prevTask = tasks[index - 1];
               const prevTaskEndDate = new Date(prevTask["Work End Date"]);
@@ -141,7 +129,6 @@ function transformDataset(tasksByManager, people) {
           });
         }
 
-        // Add total time worked and idle time to the employee's data
         transformedData[managerName][dateKey][employeeName].totalTimeWorked =
           totalWorkedTime;
         transformedData[managerName][dateKey][employeeName].totalIdleTime =
@@ -207,15 +194,14 @@ function populateManagerDropdown3(data) {
     .map((manager) => `<option value="${manager}">${manager}</option>`)
     .join("");
 
-  // Call updateDateDropdown3 with the initial data
   managerDropdown.onchange = () => updateDateDropdown3(data);
-  updateDateDropdown3(data); // Populate initially on page load
+  updateDateDropdown3(data);
 }
 
 function shouldDisplayManager(managerData) {
   return Object.values(managerData).some((dateData) =>
     Object.keys(dateData).some((tech) => {
-      if (isSeniorTech(tech)) return false; // Exclude senior techs
+      if (isSeniorTech(tech)) return false;
       const techData = dateData[tech];
       return techData.length > 0;
     })
@@ -232,10 +218,9 @@ function updateDateDropdown3(data) {
       .map((date) => `<option value="${date}">${date}</option>`)
       .join("");
 
-    // Set the first date as selected and update the technician dropdown
     if (Object.keys(managerData).length > 0) {
       dateDropdown.value = Object.keys(managerData)[0];
-      updateTechDropdown3(data); // Update the technician dropdown
+      updateTechDropdown3(data);
     } else {
       dateDropdown.innerHTML = "<option value=''>Select Date</option>";
     }
@@ -243,7 +228,6 @@ function updateDateDropdown3(data) {
     dateDropdown.innerHTML = "<option value=''>Select Date</option>";
   }
 
-  // Attach the onchange event to the date dropdown
   dateDropdown.onchange = () => updateTechDropdown3(data);
 }
 
@@ -252,7 +236,6 @@ function updateTechDropdown3(data) {
   const selectedDate = document.getElementById("dateDropdown3").value;
   const techDropdown = document.getElementById("techDropdown3");
 
-  // Check if manager and date data is available
   const managerData = data[selectedManager];
   if (managerData && managerData[selectedDate]) {
     const dateData = managerData[selectedDate];
@@ -261,7 +244,6 @@ function updateTechDropdown3(data) {
       .map((tech) => `<option value="${tech}">${tech}</option>`)
       .join("");
 
-    // Populate tech dropdown
     techDropdown.innerHTML = Object.keys(dateData)
       .filter((tech) => !isSeniorTech(tech) && dateData[tech].length > 0)
       .map((tech) => `<option value="${tech}">${tech}</option>`)
@@ -283,7 +265,6 @@ function displayTaskDetails(data) {
   const selectedDate = document.getElementById("dateDropdown3").value;
   const selectedTech = document.getElementById("techDropdown3").value;
 
-  // Check if the selected manager and date are present in the data
   const managerData = data[selectedManager];
   if (
     managerData &&
@@ -292,7 +273,6 @@ function displayTaskDetails(data) {
   ) {
     const tasks = managerData[selectedDate][selectedTech];
 
-    // Check if there are tasks for the selected tech
     if (tasks) {
       const shiftType = tasks.length > 0 ? tasks[0].shift : "A-Side Days";
 
@@ -320,12 +300,9 @@ function renderTimelineChart(tasks, selectedDate, shiftType) {
     const taskEnd = task.endDate;
     const id = task.id;
 
-    // Check if taskStart and taskEnd are valid date objects
     if (taskStart && taskEnd) {
       const taskDuration = taskEnd.getTime() - taskStart.getTime();
-      // console.log(`Task ${id} CST Start: ${taskStart}, CST End: ${taskEnd}`);
 
-      // Filter out tasks longer than 12 hours (43200000 milliseconds)
       if (taskDuration <= 43200000) {
         if (taskStart > lastTaskEndTime) {
           seriesData.push({
@@ -356,7 +333,7 @@ function renderTimelineChart(tasks, selectedDate, shiftType) {
       bar: {
         horizontal: true,
         distributed: true,
-        barHeight: "10%", // Setting a fixed bar height
+        barHeight: "10%",
       },
     },
     xaxis: {
@@ -379,28 +356,21 @@ function renderTimelineChart(tasks, selectedDate, shiftType) {
 
 function getShiftStartEnd(selectedDate, shiftType) {
   if (typeof selectedDate !== "string" || !shiftType) {
-    // console.error(
-    //   "Invalid input: selectedDate is not a string or shiftType is missing."
-    // );
     return { start: null, end: null };
   }
 
-  // Regular expression to extract date in format MM/DD/YYYY
   const dateRegex = /(\d{1,2})\/(\d{1,2})\/(\d{4})/;
 
-  // Extract date from selectedDate
   const dateMatch = selectedDate.match(dateRegex);
 
   if (!dateMatch) {
-    // console.error("Invalid date format:", selectedDate);
     return { start: null, end: null };
   }
 
-  const month = parseInt(dateMatch[1], 10) - 1; // Months are 0-based in JavaScript
+  const month = parseInt(dateMatch[1], 10) - 1;
   const day = parseInt(dateMatch[2], 10);
   const year = parseInt(dateMatch[3], 10);
 
-  // Define a mapping of shift types to start hours
   const shiftStartHours = {
     Days: 7,
     Nights: 19,
@@ -409,7 +379,6 @@ function getShiftStartEnd(selectedDate, shiftType) {
   const shiftStartHour = shiftStartHours[shiftType];
 
   if (isNaN(shiftStartHour)) {
-    // console.error("Invalid shift type:", shiftType);
     return { start: null, end: null };
   }
 
@@ -418,11 +387,6 @@ function getShiftStartEnd(selectedDate, shiftType) {
   shiftEnd.setHours(shiftEnd.getHours() + 12);
 
   if (isNaN(shiftStart.getTime()) || isNaN(shiftEnd.getTime())) {
-    // console.error(
-    //   "Calculated Shift Start or End is Invalid:",
-    //   shiftStart,
-    //   shiftEnd
-    // );
     return { start: null, end: null };
   }
 
@@ -436,35 +400,30 @@ function isSeniorTech(name) {
 
 function displayTechStatistics(tasks) {
   if (!tasks || tasks.length === 0) {
-    // console.error("No tasks available for calculation.");
     return;
   }
 
   let totalActiveTime = 0;
   let totalIdleTime = 0;
   let lastTaskEndTime = null;
-  const maxTaskDuration = 12 * 60 * 60 * 1000; // 12 hours in milliseconds
+  const maxTaskDuration = 12 * 60 * 60 * 1000;
 
   for (const task of tasks) {
     if (!task.startDate || !task.endDate) {
-      // console.error("Invalid task dates found.", task);
       continue;
     }
 
     const start = new Date(task.startDate).getTime();
     const end = new Date(task.endDate).getTime();
     if (isNaN(start) || isNaN(end)) {
-      // console.error("Invalid date conversion for task.", task);
       continue;
     }
 
     const taskDuration = end - start;
 
-    // Only include tasks with duration less than 12 hours
     if (taskDuration <= maxTaskDuration) {
       totalActiveTime += taskDuration;
 
-      // Calculate idle time
       if (lastTaskEndTime !== null && start > lastTaskEndTime) {
         totalIdleTime += start - lastTaskEndTime;
       }
@@ -472,25 +431,19 @@ function displayTechStatistics(tasks) {
     }
   }
 
-  // Check if there's a valid first task to calculate shift times
   if (!tasks[0] || !tasks[0].startDate || !tasks[0].shift) {
-    // console.error("Invalid or missing data for the first task.", tasks[0]);
     return;
   }
 
-  // Calculate the shift duration
   const shiftTimes = getShiftStartEnd(tasks[0].startDate, tasks[0].shift);
   if (!shiftTimes || !shiftTimes.start || !shiftTimes.end) {
-    // console.error("Invalid shift start or end time.", shiftTimes);
     return;
   }
   const shiftDuration = shiftTimes.end.getTime() - shiftTimes.start.getTime();
   if (isNaN(shiftDuration)) {
-    // console.error("Shift duration calculation resulted in NaN.", shiftTimes);
     return;
   }
 
-  // Calculate effective idle time
   let effectiveIdleTime = shiftDuration - totalActiveTime;
   if (effectiveIdleTime < 0) effectiveIdleTime = 0;
 
@@ -502,7 +455,6 @@ function displayTechStatistics(tasks) {
 
 function millisecondsToHoursMinutes(milliseconds) {
   if (isNaN(milliseconds)) {
-    // console.error("Invalid milliseconds input for conversion.", milliseconds);
     return "Invalid Time";
   }
   let hours = Math.floor(milliseconds / 3600000);
@@ -511,10 +463,8 @@ function millisecondsToHoursMinutes(milliseconds) {
 }
 
 function convertToCST(dateString) {
-  // Assuming dateString is in ISO format like "2024-01-03T12:00:00"
-  // CST is UTC-6, but consider Daylight Saving Time
   const date = new Date(dateString);
-  const utcOffset = date.getTimezoneOffset() * 60000; // offset in milliseconds
-  const cstOffset = 6 * 60 * 60000; // CST offset in milliseconds
+  const utcOffset = date.getTimezoneOffset() * 60000;
+  const cstOffset = 6 * 60 * 60000;
   return new Date(date.getTime() + utcOffset - cstOffset);
 }
