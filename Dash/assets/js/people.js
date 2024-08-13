@@ -31,10 +31,9 @@ export function exportLog() {
   const blob = new Blob([logText], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
+  const date = new Date().toISOString().replace(/[:.]/g, "-");
   a.href = url;
-  a.download = `action_log_${new Date()
-    .toISOString()
-    .replace(/[:.]/g, "-")}.txt`;
+  a.download = `Logs_${date}.txt`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
