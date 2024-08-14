@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parser.js Tests</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/mocha/mocha.css"
+    />
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mocha@9.1.2/mocha.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chai@4.3.4/chai.min.js"></script>
+    <script>
+      mocha.setup("bdd");
+    </script>
+
+    <!-- Use ES6 module syntax -->
+    <script src="./Dash/assets/js/variables.js"></script>
+    <script type="module">
+      import {
+        countTasksByManager,
+        getResolvedTasks,
+        findMostRecentDates,
+      } from "./Dash/assets/js/task_processor.js";
+      import { TaskManager } from "./Dash/assets/js/parser.js";
+
+      const { expect } = chai;
+
+      describe("Task Processor Functions with Mock People Data", () => {
+        let taskManager;
+        let people;
+
+        const sampleTasks = [
+          {
+            "Datacenter Code": "DC1",
+            Id: "1000",
+            Title: "Disk Replacement: Faulty Drive",
+            "Task Type": "BreakFix",
+            "Fault Description": "Storage: Disk Drive Failure",
+            "Created Date": "7/29/24 10:00",
+            State: "Resolved",
+            "Assigned To": "Jane Doe <jdoe@abc-dc.com>",
+            "Work End Date": "7/29/24 17:00",
+            "Work Start Date": "7/29/24 10:30",
+            Expedite: "y",
+          },
+          {
+            "Datacenter Code": "DC1",
+            Id: "1004",
+            Title: "Rack Installation: New Equipment",
+            "Task Type": "Deployment",
+            "Fault Description": "Hardware: Rack Installation",
+            "Created Date": "7/29/24 14:00",
+            State: "Resolved",
+            "Assigned To": "Chris Evans <cevans@abc-dc.com>",
+            "Work End Date": "7/29/24 16:00",
+            "Work Start Date": "7/29/24 14:00",
+            Expedite: "y",
+          },
+        ];
+
+        // Mock people data that would come from Firebase
+        const mockPeople = [
+          { name: "Jane Doe", role: "Technician" },
+          { name: "Chris Evans", role: "Manager" },
+          { name: "Emily Smith", role: "Technician" },
+        ];
+
+        beforeEach(() => {
+          // Inject the mock people data
+          people = mockPeople;
+          taskManager = new TaskManager();
+          sampleTasks.forEach((task) => taskManager.addTask(task));
+        });
+
+        it("getResolvedTasks should return only resolved tasks", () => {
+          const resolvedTasks = taskManager.getResolvedTasks(); // Use the TaskManager method directly
+          expect(resolvedTasks).to.have.lengthOf(2);
+          expect(resolvedTasks[0]).to.have.property("State", "Resolved");
+          expect(resolvedTasks[1]).to.have.property("State", "Resolved");
+        });
+
+        it("countTasksByManager should count tasks by manager correctly", () => {
+          const resolvedTasks = taskManager.getResolvedTasks(); // Use the TaskManager method directly
+          const tasksByManager = countTasksByManager(resolvedTasks);
+          expect(tasksByManager).to.deep.equal({
+            "Jane Doe": 1,
+            "Chris Evans": 1,
+          });
+        });
+
+        it("findMostRecentDates should return the most recent dates of resolved tasks", () => {
+          const resolvedTasks = taskManager.getResolvedTasks(); // Use the TaskManager method directly
+          const mostRecentDates = findMostRecentDates(resolvedTasks);
+          expect(mostRecentDates).to.deep.equal([
+            "7/29/24 17:00",
+            "7/29/24 16:00",
+          ]);
+        });
+      });
+      mocha.run();
+    </script>
+  </body>
+</html>
