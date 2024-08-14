@@ -27,7 +27,23 @@ export function logAction(action, details) {
 }
 
 export function exportLog() {
-  const logText = actionLog.join("\n");
+  const user = JSON.parse(localStorage.getItem("user")) || "user";
+
+  const loginTime =
+    localStorage.getItem("datetime") || new Date().toISOString();
+
+  const columns = "Timestamp,Action,User";
+  const loginLog = `${loginTime},User logged in,${user}`;
+
+  const logWithUser = actionLog.map((log) => {
+    const [logTimestamp, action] = log.split(" - ");
+    return `${logTimestamp},${action},${user}`;
+  });
+
+  logWithUser.unshift(loginLog);
+
+  const logText = [columns, ...logWithUser].join("\n");
+
   const blob = new Blob([logText], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");

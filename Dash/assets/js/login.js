@@ -26,6 +26,8 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       const user = userCredential.user;
+      localStorage.setItem("user", JSON.stringify(user.email));
+      localStorage.setItem("datetime", new Date().toISOString());
       console.log("User signed in:", user);
       window.location.href = "index.html";
     })

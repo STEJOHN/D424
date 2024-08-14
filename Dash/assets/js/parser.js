@@ -64,7 +64,7 @@ export function loadPeopleData() {
     });
 }
 
-class Task {
+export class Task {
   constructor(data) {
     this._data = data;
   }
@@ -88,7 +88,7 @@ class Task {
 }
 
 // Inheritance: RMATask extends Task
-class RMATask extends Task {
+export class RMATask extends Task {
   getDescription() {
     return `RMA Task ${this.get("Id")}: ${this.get("Title")} - ${this.get(
       "Fault Code"
@@ -97,7 +97,7 @@ class RMATask extends Task {
 }
 
 // Inheritance: StandardTask extends Task
-class StandardTask extends Task {
+export class StandardTask extends Task {
   getDescription() {
     return `Standard Task ${this.get("Id")}: ${this.get("Title")} - ${this.get(
       "Priority Bucket"
@@ -106,7 +106,7 @@ class StandardTask extends Task {
 }
 
 // TaskFactory for creating appropriate Task instances
-class TaskFactory {
+export class TaskFactory {
   static createTask(data) {
     if (data["Task Type"] === "RMA") {
       return new RMATask(data);
@@ -117,7 +117,7 @@ class TaskFactory {
 }
 
 // TaskManager class (demonstrates encapsulation)
-class TaskManager {
+export class TaskManager {
   constructor() {
     this._tasks = [];
     this._dc1 = [];
