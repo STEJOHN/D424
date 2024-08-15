@@ -32,6 +32,25 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
       window.location.href = "index.html";
     })
     .catch((error) => {
+      let message = "Error signing in.";
+      if (error.code === "auth/wrong-password") {
+        message = "Incorrect password. Please try again.";
+      } else if (error.code === "auth/user-not-found") {
+        message =
+          "No user found with this email. Please check your email or sign up.";
+      } else if (error.code === "auth/invalid-email") {
+        message = "Invalid email format. Please enter a valid email.";
+      } else if (error.code === "auth/too-many-requests") {
+        message =
+          "Too many unsuccessful login attempts. Please try again later.";
+      }
+
+      Swal.fire({
+        icon: "error",
+        title: "Login Failed",
+        text: message,
+      });
+
       console.error("Error signing in:", error);
     });
 });
@@ -43,6 +62,12 @@ document.getElementById("logoutBtn").addEventListener("click", () => {
       document.getElementById("logoutBtn").style.display = "none";
     })
     .catch((error) => {
+      Swal.fire({
+        icon: "error",
+        title: "Logout Failed",
+        text: "An error occurred while trying to log out.",
+      });
+
       console.error("Error signing out:", error);
     });
 });

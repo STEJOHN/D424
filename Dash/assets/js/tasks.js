@@ -85,31 +85,31 @@ function createTaskModal(tasks_, taskId) {
   openTaskModal(task);
 }
 
-const tasks__ = [
-  {
-    "Assigned To": "Jane Doe <jdoe@abc-dc.com>",
-    "Created Date": "7/29/24 10:00",
-    "Datacenter Code": "DC1",
-    Expedite: "y",
-    "Fault Description": "Storage: Disk Drive Failure",
-    Id: "1000",
-    State: "Resolved",
-    "Task Type": "BreakFix",
-    Title: "Disk Replacement: Faulty Drive",
-    "Work End Date": "7/29/24 17:00",
-    "Work Start Date": "7/29/24 10:30",
-  },
-  {
-    "Assigned To": "John Smith <jsmith@abc-dc.com>",
-    "Created Date": "7/30/24 09:00",
-    "Datacenter Code": "DC2",
-    Expedite: "n",
-    "Fault Description": "Network: Switch Failure",
-    Id: "1001",
-    State: "In Progress",
-    "Task Type": "NetworkFix",
-    Title: "Switch Replacement",
-    "Work End Date": "7/30/24 12:00",
-    "Work Start Date": "7/30/24 09:30",
-  },
-];
+// const tasks__ = [
+//   {
+//     "Assigned To": "Jane Doe <jdoe@abc-dc.com>",
+//     "Created Date": "7/29/24 10:00",
+//     "Datacenter Code": "DC1",
+//     Expedite: "y",
+//     "Fault Description": "Storage: Disk Drive Failure",
+//     Id: "1000",
+//     State: "Resolved",
+//     "Task Type": "BreakFix",
+//     Title: "Disk Replacement: Faulty Drive",
+//     "Work End Date": "7/29/24 17:00",
+//     "Work Start Date": "7/29/24 10:30",
+//   },
+//   {
+//     "Assigned To": "John Smith <jsmith@abc-dc.com>",
+//     "Created Date": "7/30/24 09:00",
+//     "Datacenter Code": "DC2",
+//     Expedite: "n",
+//     "Fault Description": "Network: Switch Failure",
+//     Id: "1001",
+//     State: "In Progress",
+//     "Task Type": "NetworkFix",
+//     Title: "Switch Replacement",
+//     "Work End Date": "7/30/24 12:00",
+//     "Work Start Date": "7/30/24 09:30",
+//   },
+// ];
