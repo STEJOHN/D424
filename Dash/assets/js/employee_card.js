@@ -179,7 +179,7 @@ function updateEmployeeDetails(data) {
           "Manager: " + managerName;
 
         return `<tr>
-          <td><a href="https://gdcoapp.trafficmanager.net/tasks/details/${task.Id}" target="_blank" rel="noopener noreferrer">${task.Id}</a></td>
+          <td>${task.Id}</td>
           <td>${task["Assigned To"]}</td>
           <td>${task["Datacenter Code"]}</td>
           <td>${task["State"]}</td>

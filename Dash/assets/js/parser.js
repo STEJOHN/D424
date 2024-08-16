@@ -299,7 +299,7 @@ function setupEventListener() {
             tasksByManager = countTasksByManager(getResolvedTasks(tasks));
             taskManager.metro = metro;
             shift = findMostRecentDates(getResolvedTasks(tasks));
-            // analyzed_tasks = analyzeTasks(taskManager.metro);
+            analyzed_tasks = analyzeTasks(tasks);
             apex1(shift);
             apex2(tasksByManager);
             getAssigned(tasks, people, DC_TX_Region1, DC_TX_Region2);
@@ -308,6 +308,9 @@ function setupEventListener() {
             getResolved(tasks, people, DC_TX_Region1, DC_TX_Region2);
             getChart(getAllTasks()[`By Manager`]);
             updateEmployeeDetails(tasksByManager);
+            initializePerformanceRanking(tasksByManager, people);
+            initializeTimeTable(tasksByManager);
+            initializeEmployeeRankingChart(tasksByManager);
           });
         },
       });

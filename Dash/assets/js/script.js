@@ -55,7 +55,7 @@ function getResolvedByCampus(data) {
 
 function getCreatedByCampus(data) {
   let now = new Date();
-  let twelveHoursAgo = new Date(now.getTime() - 12 * 60 * 60 * 1000);
+  let twentyFourHoursAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
   let todayCount = 0;
   let yesterdayCount = 0;
@@ -69,8 +69,8 @@ function getCreatedByCampus(data) {
       let createdDate = new Date(data[i]["Created Date"]);
 
       if (
-        (workStartDate >= twelveHoursAgo && workStartDate <= now) ||
-        (createdDate >= twelveHoursAgo && createdDate <= now)
+        (workStartDate >= twentyFourHoursAgo && workStartDate <= now) ||
+        (createdDate >= twentyFourHoursAgo && createdDate <= now)
       ) {
         todayCount++;
         tempDateArray.push(
@@ -417,7 +417,7 @@ function populateAndShowModal(taskDetails) {
       }
       const betterDescription = processTitle(task);
       const row = `<tr>
-      <td><a href="https://gdcoapp.trafficmanager.net/tasks/details/${task.Id}" target="_blank" rel="noopener noreferrer">${task.Id}</a></td>
+      <td>${task.Id}</td>
       <td>${task["Assigned To"]}</td>
       <td>${task["Datacenter Code"]}</td>
       <td>${managerName}</td>
@@ -1284,15 +1284,11 @@ function getResolved(data, people, DC_TX_Region1, DC_TX_Region2) {
 
   const peopleMap = new Map(people.map((p) => [p["name"], p["manager"]]));
 
-  const now = new Date();
-  const twelveHoursAgo = new Date(now.getTime() - 12 * 60 * 60 * 1000);
-
   for (const x of data) {
     if (x["Assigned To"]) {
       const alias = x["Assigned To"].split("<")[0].trim();
       const dc = x["Datacenter Code"].toLowerCase();
       const state = x["State"];
-      const resolvedDate = new Date(x["Work End Date"]);
 
       let category = null;
       if (region1Set.has(dc)) {
@@ -1301,12 +1297,7 @@ function getResolved(data, people, DC_TX_Region1, DC_TX_Region2) {
         category = dc;
       }
 
-      if (
-        state === "Resolved" &&
-        category &&
-        peopleMap.has(alias) &&
-        resolvedDate >= twelveHoursAgo
-      ) {
+      if (state === "Resolved" && category && peopleMap.has(alias)) {
         const mgr = peopleMap.get(alias);
         if (mgr !== "IGNORE") {
           if (!siteMap.has(category)) {

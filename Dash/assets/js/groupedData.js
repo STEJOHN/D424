@@ -558,14 +558,21 @@ function initializeTimeTable(tasksByManager) {
   const tableElement = document.getElementById("timeTable");
 
   const dataTable = $(tableElement).DataTable({
-    dom: "B",
-    columnDefs: [{ type: "date", targets: 2 }],
-    order: [[2, "asc"]],
-    responsive: true,
-
-    paging: true,
+    retrieve: true,
+    dom: '<"top"fB>rt',
+    buttons: [
+      {
+        extend: "excel",
+        text: "Excel",
+      },
+    ],
+    search: true,
     pageLength: -1,
-    searching: false,
+    lengthMenu: [
+      [10, 25, 50, -1],
+      [10, 25, 50, "All"],
+    ],
+    info: false,
   });
 
   Object.keys(tasksByManager).forEach((manager) => {
@@ -732,7 +739,6 @@ const shiftHours = {
   "B-Side Days": { start: "7:00 AM", end: "7:00 PM" },
   "A-Side Nights": { start: "7:00 PM", end: "7:00 AM" },
   "B-Side Nights": { start: "7:00 PM", end: "7:00 AM" },
-  "Mon-Fri": { start: "8:00 AM", end: "5:00 PM" },
 };
 function initializePerformanceRanking(tasksByManager, people) {
   let nameToShift = {};
