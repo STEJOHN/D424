@@ -1,21 +1,3 @@
-all_campus = [{ "Datacenter Code": "SN/Leased" }, { "Datacenter Code": "SAT" }];
-const headers = [
-  "Date",
-  "Campus",
-  "DCTM",
-  "Issues/changes Encountered",
-  "Project Details",
-  "Late Arrivals",
-  "PTO",
-  "Call Outs",
-  "Techs WFH",
-  "Techs on site",
-  "Overtime Tech #",
-  "Techs on BF",
-  "Techs on DPLY/Other",
-  "# Escorts",
-  "Tickets Closed",
-];
 let selectedManager = null;
 
 let global_ot_techs = {
@@ -42,12 +24,10 @@ let dcSites = [
 let people = [];
 let tasks = [];
 let arr = [];
-let SN1TextResults = "";
+
 let arr0 = [];
 let tasksByManager = {};
-const snCampus = [];
-const satCampus = [];
-let saMetro = [];
+
 let metro = [];
 let shift = [];
 let employees = [];

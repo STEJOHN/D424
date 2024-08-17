@@ -129,3 +129,6 @@ th {
 .dt-input {
   margin-right: 10px;
 }
+.modal-content {
+  border: black .5px solid;
+}
