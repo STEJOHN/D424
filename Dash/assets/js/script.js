@@ -437,14 +437,24 @@ function populateAndShowModal(taskDetails) {
 
   $("#taskTable").DataTable({
     retrieve: true,
-    dom: '<"top"lfB>rtip',
+    dom: '<"top"fB>rt',
     buttons: [
       {
         extend: "excel",
         text: "Export to Excel",
+        title: function () {
+          return (
+            "Export_" +
+            new Date()
+              .toISOString()
+              .replace(/T/, "_")
+              .replace(/:|\..+/g, "")
+          );
+        },
       },
     ],
     search: true,
+    pageLength: -1,
   });
 
   $("#infoModal").modal("show");

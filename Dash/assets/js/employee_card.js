@@ -199,7 +199,24 @@ function updateEmployeeDetails(data) {
 
     $("#data_table").DataTable({
       retrieve: true,
-      order: [[5, "asc"]],
+      dom: '<"top"fB>rt',
+      buttons: [
+        {
+          extend: "excel",
+          text: "Export to Excel",
+          title: function () {
+            return (
+              "Export_" +
+              new Date()
+                .toISOString()
+                .replace(/T/, "_")
+                .replace(/:|\..+/g, "")
+            );
+          },
+        },
+      ],
+      search: true,
+      pageLength: -1,
     });
   }
 

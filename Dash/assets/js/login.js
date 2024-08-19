@@ -66,6 +66,7 @@ document.getElementById("logoutBtn").addEventListener("click", () => {
         icon: "error",
         title: "Logout Failed",
         text: "An error occurred while trying to log out.",
+        position: "center",
       });
 
       console.error("Error signing out:", error);
