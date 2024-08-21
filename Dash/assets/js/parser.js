@@ -328,5 +328,4 @@ export function sanitizeName(name) {
 
   return sanitized || name;
 }
-
 window.TaskProcessor = { taskManager, loadPeopleData, getPeopleData };
