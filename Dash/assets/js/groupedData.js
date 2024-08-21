@@ -819,8 +819,8 @@ function initializePerformanceRanking(tasksByManager, people) {
       const avgTime = (data.totalTime / data.daysCounted).toFixed(2);
       const avgTasks = (data.totalTasks / data.daysCounted).toFixed(2);
 
-      const targetTasks = 8;
-      const targetHours = 8.0;
+      const targetTasks = 2;
+      const targetHours = 2.0;
 
       let taskScore = (avgTasks / targetTasks) * 50;
       let timeScore = (avgTime / targetHours) * 50;
