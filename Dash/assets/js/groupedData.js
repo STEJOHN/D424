@@ -422,7 +422,7 @@ function initializeEmployeeRankingChart(tasksByManager) {
         data: [],
       },
       {
-        name: "Time on Task",
+        name: "Total(hrs)",
         data: [],
       },
     ],
@@ -563,16 +563,20 @@ function initializeTimeTable(tasksByManager) {
     buttons: [
       {
         extend: "excel",
-        text: "Excel",
+        text: "Export to Excel",
+        title: function () {
+          return (
+            "Export_" +
+            new Date()
+              .toISOString()
+              .replace(/T/, "_")
+              .replace(/:|\..+/g, "")
+          );
+        },
       },
     ],
     search: true,
     pageLength: -1,
-    lengthMenu: [
-      [10, 25, 50, -1],
-      [10, 25, 50, "All"],
-    ],
-    info: false,
   });
 
   Object.keys(tasksByManager).forEach((manager) => {
