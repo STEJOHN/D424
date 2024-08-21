@@ -322,7 +322,11 @@ function setupEventListener() {
 setupEventListener();
 
 export function sanitizeName(name) {
-  return name.split(" <")[0].trim();
+  let sanitized = name.split("<")[0].trim();
+
+  sanitized = sanitized.replace(/[^a-zA-Z\s-]/g, "").trim();
+
+  return sanitized || name;
 }
 
 window.TaskProcessor = { taskManager, loadPeopleData, getPeopleData };
