@@ -1,0 +1,1064 @@
+Datacenter Code,Id,Title,Task Type,Fault Description,Created Date,State,Assigned To,Work End Date,Work Start Date,Expedite
+DC1,1000,Disk Replacement: Faulty Drive,BreakFix,Storage: Disk Drive Failure,7/29/24 10:00,Resolved,Jane Doe <jdoe@abc-dc.com>,7/29/24 17:00,7/29/24 10:30,y
+DC1,1001,Network Configuration: VLAN Setup,BreakFix,Network Device: VLAN Configuration Issue,7/29/24 11:00,Hold,Emily Smith <esmith@abc-dc.com>,,7/29/24 11:00,n
+DC1,1003,Firewall Update: Security Patch,BreakFix,Network Device: Security Update,7/29/24 13:00,Hold,Jane Doe <jdoe@abc-dc.com>,,7/29/24 15:00,y
+DC1,1004,Rack Installation: New Equipment,Deployment,Hardware: Rack Installation,7/29/24 14:00,Resolved,Chris Evans <cevans@abc-dc.com>,7/29/24 16:00,7/29/24 14:00,y
+DC1,1006,Network Switch Reboot,BreakFix,Network Device: Switch Failure,7/29/24 16:00,Resolved,Michael Brown <mbrown@abc-dc.com>,7/29/24 18:00,7/29/24 16:00,n
+DC1,1007,Server Upgrade: Memory Expansion,BreakFix,Server: Insufficient Memory,7/29/24 17:00,Resolved,Linda Davis <ldavis@abc-dc.com>,7/29/24 18:30,7/29/24 17:00,n
+DC1,1008,UPS Battery Replacement,BreakFix,UPS: Battery Failure,7/29/24 18:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,7/29/24 19:00,7/29/24 18:00,y
+DC1,1009,Cable Management: Reorganization,BreakFix,Cabling: Poor Management,7/29/24 19:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,7/29/24 19:30,7/29/24 19:00,y
+DC1,1010,Power Supply Voltage Check,BreakFix,Power Supply: Voltage Fluctuations,7/29/24 20:00,Hold,James Martinez <jmartinez@abc-dc.com>,,7/29/24 20:00,n
+DC1,1011,Rack Setup: New Hardware,Deployment,Hardware: New Rack Setup,7/29/24 21:00,Hold,Mary Anderson <manderson@abc-dc.com>,,7/29/24 21:00,y
+DC1,1012,Server Diagnostics: Hardware Check,BreakFix,Server: Hardware Failure,7/29/24 22:00,Hold,William Taylor <wtaylor@abc-dc.com>,,7/29/24 22:00,y
+DC1,1013,Switch Configuration: Port Assignment,BreakFix,Network Device: Port Assignment Issue,7/29/24 23:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/1/24 1:00,7/29/24 23:00,y
+DC1,1014,Hardware Upgrade: New SSD,BreakFix,Storage: SSD Upgrade,8/1/24 0:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/1/24 1:30,8/1/24 0:00,n
+DC1,1015,Network Router Firmware Update,BreakFix,Network Device: Firmware Outdated,8/1/24 1:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/1/24 2:00,8/1/24 1:00,n
+DC3,1016,Server Cooling System Replacement,BreakFix,Server: Overheating Issue,8/1/24 2:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/1/24 3:00,8/1/24 2:00,y
+DC3,1017,Network Card Installation,Deployment,Network Device: New Card Installation,8/1/24 3:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/1/24 4:00,8/1/24 3:00,n
+DC3,1018,Patch Management: Software Update,BreakFix,Server: Software Patch Needed,8/1/24 4:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/1/24 5:00,8/1/24 4:00,n
+DC3,1019,Power Distribution Unit Check,BreakFix,Power: Distribution Unit Fault,8/1/24 5:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/1/24 6:00,8/1/24 5:00,y
+DC3,1020,Server Firmware Update,BreakFix,Server: Firmware Outdated,8/1/24 6:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/1/24 7:00,8/1/24 6:00,n
+DC3,1021,Data Backup Verification,BreakFix,Storage: Backup Verification Needed,8/1/24 7:00,Resolved,Nancy Lewis <nlewis@abc-dc.com>,8/1/24 8:00,8/1/24 7:00,n
+DC3,1022,Switch Configuration: New VLAN,BreakFix,Network Device: VLAN Setup,8/1/24 8:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/1/24 9:00,8/1/24 8:00,y
+DC3,1023,Disk Migration: Data Transfer,BreakFix,Storage: Disk Data Migration,8/1/24 9:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/1/24 10:00,8/1/24 9:00,y
+DC3,1024,Operating System Patch Installation,BreakFix,Server: OS Patch Needed,8/1/24 10:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/1/24 11:00,8/1/24 10:00,n
+DC3,1025,Network Firmware Update,BreakFix,Network Device: Firmware Outdated,8/1/24 11:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/1/24 12:00,8/1/24 11:00,n
+DC3,1026,UPS System Check,BreakFix,UPS: System Health Check,8/1/24 12:00,Resolved,Andrew King <aking@abc-dc.com>,8/1/24 13:00,8/1/24 12:00,n
+DC3,1027,Power Surge Protection Check,BreakFix,Power: Surge Protection Issue,8/1/24 13:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/1/24 14:00,8/1/24 13:00,y
+DC3,1028,Disk Replacement: Hot Spare Setup,BreakFix,Storage: Hot Spare Disk Setup,8/1/24 14:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/1/24 15:00,8/1/24 14:00,y
+DC3,1029,Server Rack: Cable Management,BreakFix,Cabling: Poor Management,8/1/24 15:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/1/24 16:00,8/1/24 15:00,n
+DC3,1030,Phase Balancing in Power Distribution,BreakFix,Power: Phase Imbalance,8/1/24 16:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/1/24 17:00,8/1/24 16:00,y
+DC3,1031,Network Interface Hardware Check,BreakFix,Network Device: Hardware Issue,8/1/24 17:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/1/24 18:00,8/1/24 17:00,y
+DC3,1032,Server Performance Diagnostic,BreakFix,Server: Performance Degradation,8/1/24 18:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/1/24 19:00,8/1/24 18:00,y
+DC3,1033,Switch Port Replacement,BreakFix,Network Device: Faulty Port,8/1/24 19:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/1/24 20:00,8/1/24 19:00,n
+DC4,1034,Server Memory Expansion,BreakFix,Server: Insufficient Memory,8/1/24 20:00,Resolved,George Carter <gcarter@abc-dc.com>,8/1/24 21:00,8/1/24 20:00,n
+DC4,1035,Network Monitoring: Threshold Configuration,BreakFix,Network Device: Threshold Setup,8/1/24 21:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/1/24 22:00,8/1/24 21:00,y
+DC4,1036,Firewall Rule Update,BreakFix,Network Device: Firewall Configuration,8/1/24 22:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/1/24 23:00,8/1/24 22:00,n
+DC4,1037,Voltage Stability Check,BreakFix,Power Supply: Voltage Fluctuations,8/1/24 23:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,7/31/24 0:00,8/1/24 23:00,n
+DC4,1038,UPS Load Calibration,BreakFix,UPS: Load Imbalance,7/31/24 0:00,Resolved,Kevin Turner <kturner@abc-dc.com>,7/31/24 1:00,7/31/24 0:00,y
+DC4,1039,Disk Redundancy Test,BreakFix,Storage: Redundancy Check,7/31/24 1:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,7/31/24 2:00,7/31/24 1:00,n
+DC4,1040,Equipment Status Audit,BreakFix,Audit: Hardware Check,7/31/24 2:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,7/31/24 3:00,7/31/24 2:00,n
+DC4,1041,Server Hardware Diagnostics,BreakFix,Server: Hardware Failure,7/31/24 3:00,Resolved,Amanda Parker <aparker@abc-dc.com>,7/31/24 4:00,7/31/24 3:00,y
+DC4,1042,VLAN Update on Switch,BreakFix,Network Device: VLAN Configuration,7/31/24 4:00,Resolved,Brian Evans <bevans@abc-dc.com>,7/31/24 5:00,7/31/24 4:00,y
+DC4,1043,Switch Replacement Due to Traffic,BreakFix,Network Device: High Traffic Load,7/31/24 5:00,Resolved,Carol Collins <ccollins@abc-dc.com>,7/31/24 6:00,7/31/24 5:00,n
+DC4,1044,Server Software Update,BreakFix,Server: Software Patch Needed,7/31/24 6:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,7/31/24 7:00,7/31/24 6:00,n
+DC4,1045,Load Balancer Configuration,BreakFix,Network Device: Load Balancer Setup,7/31/24 7:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,7/31/24 8:00,7/31/24 7:00,n
+DC4,1046,Generator Check,BreakFix,Power: Generator Test,7/31/24 8:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,7/31/24 9:00,7/31/24 8:00,y
+DC4,1047,Backup Restoration Test,BreakFix,Storage: Backup Recovery,7/31/24 9:00,Resolved,Michelle Morris <mmorris@abc-dc.com>,7/31/24 10:00,7/31/24 9:00,y
+DC4,1048,Server Cooling System Check,BreakFix,Server: Cooling Fan Issue,7/31/24 10:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,7/31/24 11:00,7/31/24 10:00,n
+DC4,1049,Network Traffic Analysis,BreakFix,Network Device: Traffic Monitoring,7/31/24 11:00,Resolved,Laura Reed <lreed@abc-dc.com>,7/31/24 12:00,7/31/24 11:00,y
+DC5,1050,Disk Cleanup on Server,BreakFix,Storage: Disk Space Management,7/31/24 12:00,Resolved,Anthony Cook <acook@abc-dc.com>,7/31/24 13:00,7/31/24 12:00,y
+DC5,1051,Quality of Service Configuration,BreakFix,Network Device: QoS Settings,7/31/24 13:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,7/31/24 14:00,7/31/24 13:00,y
+DC5,1052,Circuit Stability Check,BreakFix,Power Supply: Circuit Fluctuations,7/31/24 14:00,Resolved,Mark Bell <mbell@abc-dc.com>,7/31/24 15:00,7/31/24 14:00,n
+DC5,1053,Data Backup Verification,BreakFix,Storage: Backup Consistency,7/31/24 15:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,7/31/24 16:00,7/31/24 15:00,n
+DC5,1054,Configuration Audit on Switch,BreakFix,Network Device: Configuration Issue,7/31/24 16:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,7/31/24 17:00,7/31/24 16:00,y
+DC5,1055,Patch Installation on Server,BreakFix,Server: Software Patch Needed,7/31/24 17:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,7/31/24 18:00,7/31/24 17:00,n
+DC5,1056,Disk Array Consistency Check,BreakFix,Storage: Disk Array Issue,7/31/24 18:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,7/31/24 19:00,7/31/24 18:00,n
+DC5,1057,Firmware Update on Network Device,BreakFix,Network Device: Outdated Firmware,7/31/24 19:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,7/31/24 20:00,7/31/24 19:00,y
+DC5,1058,Power Redundancy Check,BreakFix,Power Supply: Redundancy Issue,7/31/24 20:00,Resolved,Stephen Cox <scox@abc-dc.com>,7/31/24 21:00,7/31/24 20:00,n
+DC5,1059,Latency Issue Diagnostics,BreakFix,Network Device: Latency Problem,7/31/24 21:00,Resolved,Jessica Ward <jward@abc-dc.com>,7/31/24 22:00,7/31/24 21:00,n
+DC5,1060,Faulty Power Supply Repair,BreakFix,Power Supply: Hardware Issue,7/31/24 22:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,7/31/24 23:00,7/31/24 22:00,y
+DC5,1061,Port Diagnostics on Network Device,BreakFix,Network Device: Faulty Port,7/31/24 23:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/1/24 0:00,7/31/24 23:00,y
+DC5,1062,Critical Data Recovery,BreakFix,Storage: Data Loss,8/1/24 0:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/1/24 1:00,8/1/24 0:00,n
+DC5,1063,Memory Diagnostic on Server,BreakFix,Server: Memory Failure,8/1/24 1:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/1/24 2:00,8/1/24 1:00,n
+DC5,1064,Voltage Level Check,BreakFix,Power Supply: Voltage Fluctuations,8/1/24 2:00,Resolved,Scott James <sjames@abc-dc.com>,8/1/24 3:00,8/1/24 2:00,n
+DC5,1065,Router Configuration Update,BreakFix,Network Device: Configuration Issue,8/1/24 3:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/1/24 4:00,8/1/24 3:00,y
+DC5,1066,Rack Hardware Inspection,BreakFix,Server: Hardware Check,8/1/24 4:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/1/24 5:00,8/1/24 4:00,y
+DC5,1067,File System Integrity Check,BreakFix,Storage: File System Corruption,8/1/24 5:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/1/24 6:00,8/1/24 5:00,n
+DC5,1068,Load Balancing Check on Switch,BreakFix,Network Device: Load Balancing Issue,8/1/24 6:00,Resolved,Dennis Sanders <dsanders@abc-dc.com>,8/1/24 7:00,8/1/24 6:00,y
+DC6,1069,Emergency Power Test,BreakFix,Server: Emergency Power Check,8/1/24 7:00,Resolved,Angela Price <aprice@abc-dc.com>,8/1/24 8:00,8/1/24 7:00,y
+DC6,1070,Connectivity Check on Network Device,BreakFix,Network Device: Connectivity Issue,8/1/24 8:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/1/24 9:00,8/1/24 8:00,y
+DC6,1071,Disk Expansion on Server,BreakFix,Storage: Insufficient Disk Space,8/1/24 9:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/1/24 10:00,8/1/24 9:00,n
+DC6,1072,Battery Backup Check,BreakFix,Power Supply: Battery Failure,8/1/24 10:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/1/24 11:00,8/1/24 10:00,n
+DC6,1073,IP Address Management,BreakFix,Network Device: IP Conflict,8/1/24 11:00,Resolved,Laura Ross <lross@abc-dc.com>,8/1/24 12:00,8/1/24 11:00,y
+DC6,1074,Temperature Regulation Check,BreakFix,Server: Overheating Issue,8/1/24 12:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/1/24 13:00,8/1/24 12:00,n
+DC6,1075,Disk Performance Check,BreakFix,Storage: Performance Degradation,8/1/24 13:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/1/24 14:00,8/1/24 13:00,n
+DC6,1076,Speed Test on Network Device,BreakFix,Network Device: Slow Performance,8/1/24 14:00,Resolved,George Carter <gcarter@abc-dc.com>,8/1/24 15:00,8/1/24 14:00,y
+DC6,1077,System Integrity Check,BreakFix,Server: System Check Needed,8/1/24 15:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/1/24 16:00,8/1/24 15:00,n
+DC6,1078,Emergency Shutdown Test,BreakFix,Power Supply: Emergency Shutdown,8/1/24 16:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/1/24 17:00,8/1/24 16:00,n
+DC1,014,Disk Replacement: Faulty Drive,BreakFix,Storage: Disk Drive Failure,8/1/24 8:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/1/24 12:00,8/1/24 8:30,y
+DC2,015,Network Configuration: VLAN Setup,BreakFix,Network Device: VLAN Configuration Issue,8/1/24 9:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,,8/1/24 9:15,y
+DC4,017,Firewall Update: Security Patch,BreakFix,Network Device: Security Update,8/1/24 11:00,Resolved,Susan Martin <smartin@abc-dc.com>,,8/1/24 11:45,n
+DC5,018,Rack Installation: New Equipment,Deployment,Hardware: Rack Installation,8/1/24 12:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/1/24 14:00,8/1/24 12:30,n
+DC7,020,Network Switch Reboot,BreakFix,Network Device: Switch Failure,8/1/24 14:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/1/24 15:30,8/1/24 14:30,y
+DC8,021,Server Upgrade: Memory Expansion,BreakFix,Server: Insufficient Memory,8/1/24 15:00,Resolved,Nancy Lewis <nlewis@abc-dc.com>,8/1/24 16:30,8/1/24 15:15,n
+DC1,022,UPS Battery Replacement,BreakFix,UPS: Battery Failure,8/1/24 16:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/1/24 17:00,8/1/24 16:30,y
+DC2,023,Cable Management: Reorganization,BreakFix,Cabling: Poor Management,8/1/24 17:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/1/24 18:00,8/1/24 17:30,y
+DC3,024,Power Supply Voltage Check,BreakFix,Power Supply: Voltage Fluctuations,8/1/24 18:00,Resolved,Matthew Allen <mallen@abc-dc.com>,,8/1/24 18:15,y
+DC4,025,Rack Setup: New Hardware,Deployment,Hardware: New Rack Setup,8/1/24 19:00,Resolved,Lisa Young <lyoung@abc-dc.com>,,8/1/24 19:45,n
+DC5,026,Server Diagnostics: Hardware Check,BreakFix,Server: Hardware Failure,8/1/24 20:00,Resolved,Andrew King <aking@abc-dc.com>,,8/1/24 20:30,n
+DC6,027,Switch Configuration: Port Assignment,BreakFix,Network Device: Port Assignment Issue,8/1/24 21:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/1/24 22:00,8/1/24 21:15,y
+DC7,028,Disk Replacement: Faulty Drive,BreakFix,Storage: Disk Drive Failure,8/1/24 22:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/1/24 23:00,8/1/24 22:30,n
+DC8,029,Network Configuration: VLAN Setup,BreakFix,Network Device: VLAN Configuration Issue,8/1/24 23:00,Resolved,Margaret Green <mgreen@abc-dc.com>,,8/1/24 23:15,n
+DC2,031,Firewall Update: Security Patch,BreakFix,Network Device: Security Update,7/31/24 1:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,,7/31/24 1:30,n
+DC3,032,Rack Installation: New Equipment,Deployment,Hardware: Rack Installation,7/31/24 2:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,7/31/24 3:00,7/31/24 2:30,n
+DC5,034,Network Switch Reboot,BreakFix,Network Device: Switch Failure,7/31/24 4:00,Resolved,George Carter <gcarter@abc-dc.com>,7/31/24 5:30,7/31/24 4:30,y
+DC6,035,Server Upgrade: Memory Expansion,BreakFix,Server: Insufficient Memory,7/31/24 5:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,7/31/24 6:30,7/31/24 5:15,n
+DC7,036,UPS Battery Replacement,BreakFix,UPS: Battery Failure,7/31/24 6:00,Resolved,Joshua Perez <jperez@abc-dc.com>,7/31/24 7:00,7/31/24 6:30,n
+DC8,037,Cable Management: Reorganization,BreakFix,Cabling: Poor Management,7/31/24 7:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,7/31/24 8:00,7/31/24 7:15,n
+DC1,038,Power Supply Voltage Check,BreakFix,Power Supply: Voltage Fluctuations,7/31/24 8:00,Resolved,Kevin Turner <kturner@abc-dc.com>,,7/31/24 8:30,y
+DC2,039,Rack Setup: New Hardware,Deployment,Hardware: New Rack Setup,7/31/24 9:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,,7/31/24 9:45,y
+DC3,040,Server Diagnostics: Hardware Check,BreakFix,Server: Hardware Failure,7/31/24 10:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,,7/31/24 10:30,n
+DC4,041,Switch Configuration: Port Assignment,BreakFix,Network Device: Port Assignment Issue,7/31/24 11:00,Resolved,Amanda Parker <aparker@abc-dc.com>,7/31/24 12:00,7/31/24 11:15,y
+DC5,042,Disk Replacement: Faulty Drive,BreakFix,Storage: Disk Drive Failure,7/31/24 12:00,Resolved,Brian Evans <bevans@abc-dc.com>,7/31/24 13:00,7/31/24 12:30,y
+DC6,043,Network Configuration: VLAN Setup,BreakFix,Network Device: VLAN Configuration Issue,7/31/24 13:00,Resolved,Carol Collins <ccollins@abc-dc.com>,,7/31/24 13:15,y
+DC8,045,Firewall Update: Security Patch,BreakFix,Network Device: Security Update,7/31/24 15:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,,7/31/24 15:30,n
+DC1,046,Rack Installation: New Equipment,Deployment,Hardware: Rack Installation,7/31/24 16:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,7/31/24 17:00,7/31/24 16:30,y
+DC3,048,Network Switch Reboot,BreakFix,Network Device: Switch Failure,7/31/24 18:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,7/31/24 19:00,7/31/24 18:30,n
+DC4,049,Server Upgrade: Memory Expansion,BreakFix,Server: Insufficient Memory,7/31/24 19:00,Resolved,Laura Reed <lreed@abc-dc.com>,7/31/24 20:00,7/31/24 19:15,n
+DC5,050,UPS Battery Replacement,BreakFix,UPS: Battery Failure,7/31/24 20:00,Resolved,Anthony Cook <acook@abc-dc.com>,7/31/24 21:00,7/31/24 20:30,y
+DC6,051,Cable Management: Reorganization,BreakFix,Cabling: Poor Management,7/31/24 21:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,7/31/24 22:00,7/31/24 21:15,y
+DC7,052,Power Supply Voltage Check,BreakFix,Power Supply: Voltage Fluctuations,7/31/24 22:00,Resolved,Mark Bell <mbell@abc-dc.com>,,7/31/24 22:30,n
+DC8,053,Rack Setup: New Hardware,Deployment,Hardware: New Rack Setup,7/31/24 23:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,,7/31/24 23:45,y
+DC1,054,Server Diagnostics: Hardware Check,BreakFix,Server: Hardware Failure,8/1/24 0:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,,8/1/24 0:30,y
+DC2,055,Switch Configuration: Port Assignment,BreakFix,Network Device: Port Assignment Issue,8/1/24 1:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/1/24 2:00,8/1/24 1:15,y
+DC3,056,Disk Replacement: Faulty Drive,BreakFix,Storage: Disk Drive Failure,8/1/24 2:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/1/24 3:00,8/1/24 2:30,n
+DC4,057,Network Configuration: VLAN Setup,BreakFix,Network Device: VLAN Configuration Issue,8/1/24 3:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,,8/1/24 3:15,n
+DC6,059,Firewall Update: Security Patch,BreakFix,Network Device: Security Update,8/1/24 5:00,Resolved,Jessica Ward <jward@abc-dc.com>,,8/1/24 5:30,n
+DC7,060,Rack Installation: New Equipment,Deployment,Hardware: Rack Installation,8/1/24 6:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/1/24 7:00,8/1/24 6:30,n
+DC1,2000,Firewall Reconfiguration,BreakFix,Network Device: Firewall Configuration Issue,7/31/24 1:00,Resolved,Justin Max <jumax@abc-dc.com>,7/31/24 2:00,7/31/24 1:00,y
+DC2,2001,Power Supply Replacement,BreakFix,Power Supply: Hardware Failure,7/31/24 3:00,Resolved,Emily Smith <esmith@abc-dc.com>,7/31/24 4:00,7/31/24 3:30,n
+DC3,2002,Server Disk Cleanup,BreakFix,Server: Disk Space Optimization,7/31/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,7/31/24 6:00,7/31/24 5:30,n
+DC4,2003,Switch Configuration,BreakFix,Network Device: Port Configuration,7/31/24 7:00,Resolved,Jane Doe <jdoe@abc-dc.com>,7/31/24 8:00,7/31/24 7:30,y
+DC5,2004,Disk Array Check,BreakFix,Storage: Disk Array Integrity,7/31/24 9:00,Resolved,Chris Evans <cevans@abc-dc.com>,7/31/24 10:00,7/31/24 9:15,y
+DC6,2005,Rack Installation,Deployment,Hardware: New Rack Setup,7/31/24 11:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,7/31/24 12:00,7/31/24 11:30,n
+DC7,2006,Network Monitoring Setup,Deployment,Network Device: Monitoring Configuration,7/31/24 13:00,Resolved,Michael Brown <mbrown@abc-dc.com>,7/31/24 14:00,7/31/24 13:15,n
+DC8,2007,Power Distribution Check,BreakFix,Power Supply: Voltage Distribution Issue,7/31/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,7/31/24 16:00,7/31/24 15:30,n
+DC1,2008,Firewall Update,BreakFix,Network Device: Security Patch Installation,7/31/24 17:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,7/31/24 18:00,7/31/24 17:15,y
+DC2,2009,Cooling System Check,BreakFix,Server: Cooling System Malfunction,7/31/24 19:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,7/31/24 20:00,7/31/24 19:30,y
+DC3,2010,Network Interface Reboot,BreakFix,Network Device: Interface Error,7/31/24 21:00,Resolved,James Martinez <jmartinez@abc-dc.com>,7/31/24 22:00,7/31/24 21:15,n
+DC4,2011,UPS Battery Replacement,BreakFix,UPS: Battery Failure,7/31/24 23:00,Resolved,Mary Anderson <manderson@abc-dc.com>,7/31/24 23:59,7/31/24 23:15,y
+DC5,2012,Data Backup Verification,BreakFix,Storage: Data Backup Consistency,8/1/24 0:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/1/24 1:00,8/1/24 0:30,y
+DC6,2013,Power Surge Check,BreakFix,Power Supply: Surge Protection Issue,8/1/24 2:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/1/24 3:00,8/1/24 2:15,y
+DC7,2014,Firewall Rule Update,BreakFix,Network Device: Firewall Configuration Update,8/1/24 4:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/1/24 5:00,8/1/24 4:15,n
+DC8,2015,Server Firmware Update,BreakFix,Server: Firmware Outdated,8/1/24 6:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/1/24 7:00,8/1/24 6:30,n
+DC1,2016,Rack Power Audit,BreakFix,Power Supply: Rack Power Distribution Issue,8/1/24 8:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/1/24 9:00,8/1/24 8:30,y
+DC2,2017,Network Diagnostics,BreakFix,Network Device: Performance Degradation,8/1/24 10:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/1/24 11:00,8/1/24 10:15,n
+DC3,2018,Server Disk Replacement,BreakFix,Storage: Disk Failure,8/1/24 12:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/1/24 13:00,8/1/24 12:15,n
+DC4,2019,UPS Calibration,BreakFix,UPS: Load Calibration Issue,8/1/24 14:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/1/24 15:00,8/1/24 14:30,y
+DC5,2020,Firewall Configuration Audit,BreakFix,Network Device: Firewall Configuration Error,8/1/24 16:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/1/24 17:00,8/1/24 16:15,n
+DC6,2021,Server Memory Expansion,BreakFix,Server: Insufficient Memory,8/1/24 18:00,Resolved,Nancy Lewis <nlewis@abc-dc.com>,8/1/24 19:00,8/1/24 18:30,n
+DC7,2022,Data Center Audit,BreakFix,Facility: Equipment Audit,8/1/24 20:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/1/24 21:00,8/1/24 20:15,y
+DC8,2023,Network Router Replacement,Deployment,Network Device: Router Malfunction,8/1/24 22:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/1/24 23:00,8/1/24 22:30,y
+DC1,2024,Disk Failure Alert,BreakFix,Storage: Disk Failure Detected,8/1/24 23:59,Resolved,Matthew Allen <mallen@abc-dc.com>,8/2/24 0:59,8/1/24 23:59,n
+DC2,2025,Power Redundancy Check,BreakFix,Power Supply: Redundancy Issue,8/1/24 1:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/1/24 2:00,8/1/24 1:30,n
+DC3,2026,Network Load Balancing,BreakFix,Network Device: Load Balancer Failure,8/1/24 3:00,Resolved,Andrew King <aking@abc-dc.com>,8/1/24 4:00,8/1/24 3:30,n
+DC4,2027,UPS Health Check,BreakFix,UPS: Battery Degradation,8/1/24 5:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/1/24 6:00,8/1/24 5:15,y
+DC5,2028,Rack Setup,Deployment,Hardware: New Rack Setup,8/1/24 7:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/1/24 8:00,8/1/24 7:30,y
+DC6,2029,Firewall Rule Audit,BreakFix,Network Device: Firewall Rule Misconfiguration,8/1/24 9:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/1/24 10:00,8/1/24 9:15,n
+DC7,2030,Disk Array Redundancy,BreakFix,Storage: Redundancy Failure Detected,8/1/24 11:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/1/24 12:00,8/1/24 11:30,y
+DC8,2031,Power Supply Replacement,BreakFix,Power Supply: Hardware Failure,8/1/24 13:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/1/24 14:00,8/1/24 13:15,y
+DC1,2032,Firewall Patch Installation,BreakFix,Network Device: Security Vulnerability,8/1/24 15:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/1/24 16:00,8/1/24 15:30,y
+DC2,2033,Server Performance Tuning,BreakFix,Server: Performance Degradation,8/1/24 17:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/1/24 18:00,8/1/24 17:30,n
+DC3,2034,Rack Reorganization,Deployment,Hardware: Rack Space Optimization,8/1/24 19:00,Resolved,George Carter <gcarter@abc-dc.com>,8/1/24 20:00,8/1/24 19:15,n
+DC4,2035,Network Latency Issue,BreakFix,Network Device: High Latency Detected,8/1/24 21:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/1/24 22:00,8/1/24 21:15,y
+DC5,2036,UPS Voltage Check,BreakFix,UPS: Voltage Fluctuation,8/1/24 23:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/2/24 0:00,8/1/24 23:15,n
+DC6,2037,Disk Cleanup,BreakFix,Storage: Insufficient Disk Space,8/2/24 1:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/2/24 2:00,8/2/24 1:30,n
+DC7,2038,Network Cable Replacement,BreakFix,Network Device: Faulty Cable Detected,8/2/24 3:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/2/24 4:00,8/2/24 3:30,y
+DC8,2039,Power Supply Replacement,BreakFix,Power Supply: Voltage Issue,8/2/24 5:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,8/2/24 6:00,8/2/24 5:15,n
+DC1,2040,Firewall Configuration,BreakFix,Network Device: Misconfiguration,8/2/24 7:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/2/24 8:00,8/2/24 7:30,n
+DC2,2041,Server Upgrade,BreakFix,Server: Hardware Upgrade Required,8/2/24 9:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/2/24 10:00,8/2/24 9:15,y
+DC3,2042,Rack Cable Management,BreakFix,Cabling: Poor Cable Management,8/2/24 11:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/2/24 12:00,8/2/24 11:30,y
+DC4,2043,UPS System Audit,BreakFix,UPS: System Failure Detected,8/2/24 13:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/2/24 14:00,8/2/24 13:15,n
+DC5,2044,Network Security Audit,BreakFix,Network Device: Security Breach,8/2/24 15:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/2/24 16:00,8/2/24 15:30,n
+DC6,2045,Firewall Configuration Review,BreakFix,Network Device: Configuration Error,8/2/24 17:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/2/24 18:00,8/2/24 17:15,n
+DC7,2046,Disk Array Failure,BreakFix,Storage: Disk Array Issue Detected,8/2/24 19:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,8/2/24 20:00,8/2/24 19:30,y
+DC8,2047,Server Power Issue,BreakFix,Power Supply: Power Distribution Failure,8/2/24 21:00,Resolved,Michelle Morris <mmorris@abc-dc.com>,8/2/24 22:00,8/2/24 21:15,y
+DC1,2048,Rack Setup,BreakFix,Hardware: Rack Setup Failure,8/2/24 23:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/3/24 0:00,8/2/24 23:15,n
+DC2,2049,Server Disk Replacement,BreakFix,Storage: Disk Replacement Required,8/3/24 1:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/3/24 2:00,8/3/24 1:15,y
+DC3,2050,Power Distribution Unit Check,BreakFix,Power Supply: Unit Failure,8/3/24 3:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/3/24 4:00,8/3/24 3:30,y
+DC4,2051,Network Configuration,BreakFix,Network Device: Configuration Update,8/3/24 5:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/3/24 6:00,8/3/24 5:15,y
+DC5,2052,Firewall Security Breach,BreakFix,Network Device: Firewall Breach Detected,8/3/24 7:00,Resolved,Mark Bell <mbell@abc-dc.com>,8/3/24 8:00,8/3/24 7:30,n
+DC6,2053,UPS Battery Replacement,BreakFix,UPS: Battery Failure Detected,8/3/24 9:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/3/24 10:00,8/3/24 9:30,n
+DC7,2054,Server Firmware Upgrade,BreakFix,Server: Firmware Outdated,8/3/24 11:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/3/24 12:00,8/3/24 11:30,y
+DC8,2055,Rack Power Supply Issue,BreakFix,Power Supply: Power Supply Malfunction,8/3/24 13:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/3/24 14:00,8/3/24 13:15,n
+DC1,2056,Network Device Malfunction,BreakFix,Network Device: Device Error Detected,8/3/24 15:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/3/24 16:00,8/3/24 15:30,n
+DC2,2057,Firewall Configuration Issue,BreakFix,Network Device: Misconfiguration Detected,8/3/24 17:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/3/24 18:00,8/3/24 17:15,y
+DC3,2058,Server Hardware Upgrade,BreakFix,Server: Upgrade Required,8/3/24 19:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/3/24 20:00,8/3/24 19:30,n
+DC4,2059,Disk Failure Detected,BreakFix,Storage: Disk Failure Alert,8/3/24 21:00,Resolved,Jessica Ward <jward@abc-dc.com>,8/3/24 22:00,8/3/24 21:15,n
+DC5,2060,UPS System Alert,BreakFix,UPS: System Failure Detected,8/3/24 23:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/4/24 0:00,8/3/24 23:15,y
+DC6,2061,Rack Reconfiguration,Deployment,Hardware: Rack Optimization Required,8/4/24 1:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/4/24 2:00,8/4/24 1:30,y
+DC7,2062,Network Load Balancing Failure,BreakFix,Network Device: Load Balancer Error,8/4/24 3:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/4/24 4:00,8/4/24 3:15,n
+DC8,2063,Disk Space Alert,BreakFix,Storage: Insufficient Disk Space,8/4/24 5:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/4/24 6:00,8/4/24 5:30,n
+DC1,2064,Power Redundancy Failure,BreakFix,Power Supply: Redundancy Failure Detected,8/4/24 7:00,Resolved,Scott James <sjames@abc-dc.com>,8/4/24 8:00,8/4/24 7:15,n
+DC2,2065,Firewall Security Issue,BreakFix,Network Device: Security Vulnerability Detected,8/4/24 9:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/4/24 10:00,8/4/24 9:30,y
+DC3,2066,UPS Health Check,BreakFix,UPS: Health Degradation Detected,8/4/24 11:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/4/24 12:00,8/4/24 11:15,y
+DC4,2067,Server Disk Replacement,BreakFix,Storage: Disk Replacement Required,8/4/24 13:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/4/24 14:00,8/4/24 13:30,n
+DC5,2068,Network Configuration Update,BreakFix,Network Device: Configuration Issue Detected,8/4/24 15:00,Resolved,Dennis Sanders <dsanders@abc-dc.com>,8/4/24 16:00,8/4/24 15:15,y
+DC6,2069,Firewall Configuration Error,BreakFix,Network Device: Firewall Misconfiguration,8/4/24 17:00,Resolved,Angela Price <aprice@abc-dc.com>,8/4/24 18:00,8/4/24 17:30,y
+DC7,2070,Power Supply Replacement,BreakFix,Power Supply: Replacement Required,8/4/24 19:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/4/24 20:00,8/4/24 19:30,y
+DC8,2071,UPS System Maintenance,BreakFix,UPS: System Maintenance Required,8/4/24 21:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/4/24 22:00,8/4/24 21:15,n
+DC1,2072,Disk Redundancy Check,BreakFix,Storage: Redundancy Issue Detected,8/4/24 23:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/5/24 0:00,8/4/24 23:30,n
+DC2,2073,Network Device Update,BreakFix,Network Device: Firmware Update Required,8/5/24 1:00,Resolved,Laura Ross <lross@abc-dc.com>,8/5/24 2:00,8/5/24 1:30,y
+DC3,2074,Power Supply Issue,BreakFix,Power Supply: Voltage Fluctuation Detected,8/5/24 3:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/5/24 4:00,8/5/24 3:15,n
+DC4,2075,Firewall Breach Detected,BreakFix,Network Device: Security Breach,8/5/24 5:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/5/24 6:00,8/5/24 5:15,n
+DC5,2076,Disk Health Check,BreakFix,Storage: Disk Health Issue Detected,8/5/24 7:00,Resolved,George Carter <gcarter@abc-dc.com>,8/5/24 8:00,8/5/24 7:30,y
+DC6,2077,Network Device Configuration,BreakFix,Network Device: Configuration Update Required,8/5/24 9:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/5/24 10:00,8/5/24 9:15,y
+DC7,2078,UPS Battery Replacement,BreakFix,UPS: Battery Failure Detected,8/5/24 11:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/5/24 12:00,8/5/24 11:30,n
+DC8,2079,Server Upgrade Required,BreakFix,Server: Hardware Upgrade Required,8/5/24 13:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/5/24 14:00,8/5/24 13:30,y
+DC1,2080,Rack Power Audit,BreakFix,Power Supply: Rack Power Issue Detected,8/5/24 15:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/5/24 16:00,8/5/24 15:15,y
+DC2,2081,Firewall Configuration,BreakFix,Network Device: Configuration Error,8/5/24 17:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,8/5/24 18:00,8/5/24 17:30,y
+DC3,2082,Server Disk Replacement,BreakFix,Storage: Disk Failure Detected,8/5/24 19:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/5/24 20:00,8/5/24 19:15,n
+DC4,2083,Power Supply Issue,BreakFix,Power Supply: Hardware Failure,8/5/24 21:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/5/24 22:00,8/5/24 21:30,n
+DC5,2084,Firewall Security Audit,BreakFix,Network Device: Security Audit Required,8/5/24 23:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/6/24 0:00,8/5/24 23:30,y
+DC7,2130,UPS System Battery Replacement,BreakFix,Power Supply: UPS Battery Replacement Required,8/5/24 19:00,InProgress,Brian Evans <bevans@abc-dc.com>,8/5/24 20:00,8/5/24 19:15,y
+DC4,2131,Network Switch Replacement,BreakFix,Network Device: Switch Malfunction Detected,8/5/24 21:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/5/24 22:00,8/5/24 21:15,n
+DC2,2132,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/5/24 23:00,Hold,Frank Edwards <fedwards@abc-dc.com>,8/6/24 0:00,8/5/24 23:30,y
+DC6,2133,Power Supply Diagnostic,Maintenance,Power Supply: Diagnostic Testing Required,8/6/24 1:00,InProgress,Rebecca Stewart <rstewart@abc-dc.com>,8/6/24 2:00,8/6/24 1:15,n
+DC3,2134,Firewall Security Patch,Maintenance,Network Device: Security Patch Installation,8/6/24 3:00,Resolved,George Carter <gcarter@abc-dc.com>,8/6/24 4:00,8/6/24 3:15,y
+DC7,2135,Server OS Upgrade,Maintenance,Server: Operating System Upgrade Required,8/6/24 5:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,8/6/24 6:00,8/6/24 5:30,n
+DC1,2136,Network Cable Replacement,BreakFix,Network Device: Damaged Cable Detected,8/6/24 7:00,Hold,Joshua Perez <jperez@abc-dc.com>,8/6/24 8:00,8/6/24 7:15,y
+DC8,2137,UPS System Test,Maintenance,Power Supply: UPS System Health Check,8/6/24 9:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/6/24 10:00,8/6/24 9:30,y
+DC5,2138,Network Security Audit,Maintenance,Network Device: Security Audit Required,8/6/24 11:00,InProgress,Shirley Phillips <sphillips@abc-dc.com>,8/6/24 12:00,8/6/24 11:15,n
+DC4,2139,Server Firmware Upgrade,Maintenance,Server: Firmware Upgrade Required,8/6/24 13:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/6/24 14:00,8/6/24 13:30,y
+DC3,2140,Power Supply Replacement,BreakFix,Power Supply: Hardware Replacement Required,8/6/24 15:00,InProgress,Amanda Parker <aparker@abc-dc.com>,8/6/24 16:00,8/6/24 15:15,n
+DC7,2141,Firewall Configuration Update,Maintenance,Network Device: Firewall Configuration Review,8/6/24 17:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/6/24 18:00,8/6/24 17:30,y
+DC2,2142,Server Disk Replacement,BreakFix,Storage: Disk Failure Detected,8/6/24 19:00,Hold,Carol Collins <ccollins@abc-dc.com>,8/6/24 20:00,8/6/24 19:15,n
+DC6,2143,Network Device Firmware Update,Maintenance,Network Device: Firmware Outdated,8/6/24 21:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/6/24 22:00,8/6/24 21:30,y
+DC5,2144,Air Conditioning Maintenance,Maintenance,Environmental: AC Unit Servicing Required,8/6/24 23:00,InProgress,Rebecca Stewart <rstewart@abc-dc.com>,8/7/24 0:00,8/6/24 23:15,n
+DC1,2145,Server Rack Reorganization,Maintenance,Environmental: Rack Cabling Organization,8/7/24 1:00,Hold,George Carter <gcarter@abc-dc.com>,8/7/24 2:00,8/7/24 1:15,y
+DC4,2146,Power Distribution Unit Replacement,BreakFix,Power Supply: PDU Failure Detected,8/7/24 3:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/7/24 4:00,8/7/24 3:15,n
+DC8,2147,Server Cooling System Inspection,Maintenance,Environmental: Cooling System Health Check,8/7/24 5:00,InProgress,Joshua Perez <jperez@abc-dc.com>,8/7/24 6:00,8/7/24 5:30,y
+DC6,2148,Firewall Intrusion Detection System Check,Maintenance,Network Device: IDS Monitoring Required,8/7/24 7:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/7/24 8:00,8/7/24 7:15,n
+DC2,2149,Server BIOS Update,Maintenance,Server: BIOS Update Required,8/7/24 9:00,Hold,Shirley Phillips <sphillips@abc-dc.com>,8/7/24 10:00,8/7/24 9:15,y
+DC7,2150,Power Supply Unit Inspection,Maintenance,Power Supply: Unit Inspection Required,8/7/24 11:00,InProgress,Edward Campbell <ecampbell@abc-dc.com>,8/7/24 12:00,8/7/24 11:30,n
+DC1,2151,Network Security Firmware Update,Maintenance,Network Device: Firmware Update Required,8/7/24 13:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/7/24 14:00,8/7/24 13:30,y
+DC5,2152,UPS Monitoring System Update,Maintenance,Power Supply: UPS Monitoring System Upgrade,8/7/24 15:00,Hold,Brian Evans <bevans@abc-dc.com>,8/7/24 16:00,8/7/24 15:15,n
+DC3,2153,Server Disk Health Monitoring,Maintenance,Storage: Disk Health Monitoring Required,8/7/24 17:00,InProgress,Carol Collins <ccollins@abc-dc.com>,8/7/24 18:00,8/7/24 17:30,y
+DC4,2154,Firewall Rule Review,Maintenance,Network Device: Firewall Rule Modification,8/7/24 19:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/7/24 20:00,8/7/24 19:15,n
+DC8,2155,Server Backup Test,Maintenance,Server: Backup Verification Required,8/7/24 21:00,Hold,Rebecca Stewart <rstewart@abc-dc.com>,8/7/24 22:00,8/7/24 21:30,y
+DC6,2156,Network Cable Management,Maintenance,Network Device: Cable Organization Required,8/7/24 23:00,InProgress,George Carter <gcarter@abc-dc.com>,8/8/24 0:00,8/7/24 23:15,n
+DC2,2157,Server Redundancy Check,Maintenance,Server: Redundancy Verification Required,8/8/24 1:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/8/24 2:00,8/8/24 1:15,y
+DC7,2158,UPS Battery Health Test,Maintenance,Power Supply: Battery Health Check Required,8/8/24 3:00,Hold,Joshua Perez <jperez@abc-dc.com>,8/8/24 4:00,8/8/24 3:30,n
+DC1,2159,Firewall Intrusion Detection Update,Maintenance,Network Device: IDS Update Required,8/8/24 5:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/8/24 6:00,8/8/24 5:15,y
+DC7,2160,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/8/24 7:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/8/24 8:00,8/8/24 7:15,n
+DC3,2161,Power Supply Unit Health Check,Maintenance,Power Supply: Unit Health Monitoring,8/8/24 9:00,InProgress,Carol Collins <ccollins@abc-dc.com>,8/8/24 10:00,8/8/24 9:15,y
+DC6,2162,Firewall Configuration Backup,Maintenance,Network Device: Configuration Backup Required,8/8/24 11:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/8/24 12:00,8/8/24 11:30,n
+DC2,2163,Server Rack Stability Test,Maintenance,Environmental: Rack Stability Verification,8/8/24 13:00,Hold,Rebecca Stewart <rstewart@abc-dc.com>,8/8/24 14:00,8/8/24 13:15,y
+DC1,2164,Network Switch Reset,Maintenance,Network Device: Switch Unresponsive,8/8/24 15:00,InProgress,George Carter <gcarter@abc-dc.com>,8/8/24 16:00,8/8/24 15:15,n
+DC5,2165,UPS System Battery Calibration,Maintenance,Power Supply: UPS Battery Calibration,8/8/24 17:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/8/24 18:00,8/8/24 17:30,y
+DC8,2166,Firewall Security Rules Update,Maintenance,Network Device: Firewall Security Rules Update,8/8/24 19:00,Hold,Joshua Perez <jperez@abc-dc.com>,8/8/24 20:00,8/8/24 19:15,n
+DC4,2167,Server OS Security Patch,Maintenance,Server: Security Patch Installation,8/8/24 21:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/8/24 22:00,8/8/24 21:30,y
+DC7,2168,Power Supply Unit Replacement,BreakFix,Power Supply: Hardware Failure,8/8/24 23:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,8/9/24 0:00,8/8/24 23:15,n
+DC3,2169,Network Device Configuration Update,Maintenance,Network Device: Configuration Outdated,8/9/24 1:00,Hold,Edward Campbell <ecampbell@abc-dc.com>,8/9/24 2:00,8/9/24 1:15,y
+DC6,2170,Server Rack Cooling System Inspection,Maintenance,Environmental: Cooling System Health Check,8/9/24 3:00,InProgress,Amanda Parker <aparker@abc-dc.com>,8/9/24 4:00,8/9/24 3:15,n
+DC2,2171,Firewall Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/9/24 5:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/9/24 6:00,8/9/24 5:30,y
+DC1,2172,UPS Battery Replacement,Maintenance,Power Supply: Battery Failure Detected,8/9/24 7:00,Hold,Carol Collins <ccollins@abc-dc.com>,8/9/24 8:00,8/9/24 7:15,n
+DC5,2173,Network Cable Reorganization,Maintenance,Network Device: Cable Management Required,8/9/24 9:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,8/9/24 10:00,8/9/24 9:15,y
+DC8,2174,Server Redundancy Test,Maintenance,Server: Redundancy Verification Required,8/9/24 11:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/9/24 12:00,8/9/24 11:30,n
+DC4,2175,Power Distribution Unit Firmware Update,Maintenance,Power Supply: PDU Firmware Upgrade,8/9/24 13:00,Hold,George Carter <gcarter@abc-dc.com>,8/9/24 14:00,8/9/24 13:15,y
+DC7,2176,Firewall Security Patch,Maintenance,Network Device: Security Patch Required,8/9/24 15:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,8/9/24 16:00,8/9/24 15:15,n
+DC3,2177,UPS Monitoring System Check,Maintenance,Power Supply: UPS Monitoring System Review,8/9/24 17:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/9/24 18:00,8/9/24 17:30,y
+DC6,2178,Server OS Patch Installation,Maintenance,Server: Operating System Patch Required,8/9/24 19:00,Hold,Kevin Turner <kturner@abc-dc.com>,8/9/24 20:00,8/9/24 19:15,n
+DC2,2179,Network Device Hard Reset,Maintenance,Network Device: Unresponsive,8/9/24 21:00,InProgress,Shirley Phillips <sphillips@abc-dc.com>,8/9/24 22:00,8/9/24 21:30,y
+DC1,2180,Firewall Configuration Verification,Maintenance,Network Device: Configuration Review Required,8/9/24 23:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/10/24 0:00,8/9/24 23:15,n
+DC5,2181,Server Memory Check,Maintenance,Server: Memory Health Monitoring,8/10/24 1:00,Hold,Amanda Parker <aparker@abc-dc.com>,8/10/24 2:00,8/10/24 1:15,y
+DC8,2182,UPS Voltage Regulation Test,Maintenance,Power Supply: Voltage Regulation Issue Detected,8/10/24 3:00,InProgress,Brian Evans <bevans@abc-dc.com>,8/10/24 4:00,8/10/24 3:15,n
+DC4,2183,Network Security Configuration Audit,Maintenance,Network Device: Security Configuration Review,8/10/24 5:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/10/24 6:00,8/10/24 5:30,y
+DC7,2184,Server BIOS Update,Maintenance,Server: BIOS Upgrade Required,8/10/24 7:00,Hold,Frank Edwards <fedwards@abc-dc.com>,8/10/24 8:00,8/10/24 7:15,n
+DC3,2185,Power Supply Unit Replacement,BreakFix,Power Supply: Hardware Replacement Required,8/10/24 9:00,InProgress,Rebecca Stewart <rstewart@abc-dc.com>,8/10/24 10:00,8/10/24 9:15,y
+DC6,2186,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/10/24 11:00,Resolved,George Carter <gcarter@abc-dc.com>,8/10/24 12:00,8/10/24 11:30,n
+DC2,2187,Server Backup Verification,Maintenance,Server: Backup Verification Required,8/10/24 13:00,Hold,Ashley Mitchell <amitchell@abc-dc.com>,8/10/24 14:00,8/10/24 13:15,y
+DC1,2188,Network Cable Replacement,Maintenance,Network Device: Damaged Cable Detected,8/10/24 15:00,InProgress,Joshua Perez <jperez@abc-dc.com>,8/10/24 16:00,8/10/24 15:15,n
+DC5,2189,UPS Battery Calibration,Maintenance,Power Supply: Battery Calibration Required,8/10/24 17:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/10/24 18:00,8/10/24 17:30,y
+DC8,2190,Server Rack Power Audit,Maintenance,Power Supply: Rack Power Issue Detected,8/10/24 19:00,Hold,Shirley Phillips <sphillips@abc-dc.com>,8/10/24 20:00,8/10/24 19:15,n
+DC4,2191,Network Switch Reboot,Maintenance,Network Device: Switch Unresponsive,8/10/24 21:00,InProgress,Edward Campbell <ecampbell@abc-dc.com>,8/10/24 22:00,8/10/24 21:15,y
+DC7,2192,Firewall Rule Review,Maintenance,Network Device: Firewall Rule Review Required,8/10/24 23:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/11/24 0:00,8/10/24 23:15,n
+DC3,2193,Server Disk Replacement,BreakFix,Storage: Disk Failure Detected,8/11/24 1:00,Hold,Brian Evans <bevans@abc-dc.com>,8/11/24 2:00,8/11/24 1:15,y
+DC6,2194,Power Inverter Diagnostic,Mmaintenance,Power Supply: Inverter Failure Detected,8/11/24 3:00,InProgress,Carol Collins <ccollins@abc-dc.com>,8/11/24 4:00,8/11/24 3:30,n
+DC2,2195,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/11/24 5:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/11/24 6:00,8/11/24 5:15,y
+DC1,2196,Network Device Firmware Verification,Maintenance,Network Device: Firmware Integrity Check,8/11/24 7:00,Hold,Rebecca Stewart <rstewart@abc-dc.com>,8/11/24 8:00,8/11/24 7:30,n
+DC5,2197,Server OS Security Update,Maintenance,Server: Security Update Required,8/11/24 9:00,InProgress,George Carter <gcarter@abc-dc.com>,8/11/24 10:00,8/11/24 9:15,y
+DC8,2198,Firewall Configuration Backup,Maintenance,Network Device: Configuration Backup Required,8/11/24 11:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/11/24 12:00,8/11/24 11:15,n
+DC4,2199,UPS System Test,Maintenance,Power Supply: UPS System Health Check,8/11/24 13:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/11/24 14:00,8/11/24 13:30,y
+DC7,2200,Server Cooling System Repair,Maintenance,Environmental: Cooling System Repair Required,8/11/24 15:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/11/24 16:00,8/11/24 15:30,n
+DC2,2201,Firewall Configuration Update,Maintenance,Network Device: Firewall Configuration Update,8/5/24 9:00,InProgress,Jessica Ward <jward@abc-dc.com>,8/5/24 10:00,8/5/24 9:15,y
+DC6,2202,Server Security Audit,Maintenance,Server: Security Audit Required,8/5/24 11:00,InProgress,Timothy Morgan <tmorgan@abc-dc.com>,8/5/24 12:00,8/5/24 11:30,n
+DC4,2203,Power Supply Unit Check,Maintenance,Power Supply: Unit Health Check Required,8/5/24 13:00,InProgress,Brenda Peterson <bpeterson@abc-dc.com>,8/5/24 14:00,8/5/24 13:15,y
+DC8,2204,Network Cable Replacement,Maintenance,Network Device: Damaged Cable Detected,8/5/24 15:00,InProgress,Jason Gray <jgray@abc-dc.com>,8/5/24 16:00,8/5/24 15:30,y
+DC1,2205,Server Cooling System Inspection,Maintenance,Environmental: Cooling System Health Check,8/5/24 17:00,InProgress,Catherine Ramirez <cramirez@abc-dc.com>,8/5/24 18:00,8/5/24 17:15,n
+DC5,2206,Firewall Security Configuration,Maintenance,Network Device: Security Configuration Required,8/5/24 19:00,InProgress,Scott James <sjames@abc-dc.com>,8/5/24 20:00,8/5/24 19:30,y
+DC3,2207,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/5/24 21:00,InProgress,Melissa Watson <mwatson@abc-dc.com>,8/5/24 22:00,8/5/24 21:15,y
+DC7,2208,Power Distribution Unit Firmware Update,Maintenance,Power Supply: PDU Firmware Upgrade Required,8/5/24 23:00,InProgress,Eric Brooks <ebrooks@abc-dc.com>,8/6/24 0:00,8/5/24 23:30,n
+DC6,2209,Firewall Security Rules Update,Maintenance,Network Device: Security Rules Update Required,8/6/24 1:00,InProgress,Amy Kelly <akelly@abc-dc.com>,8/6/24 2:00,8/6/24 1:15,y
+DC4,2210,Server Disk Health Monitoring,Maintenance,Storage: Disk Health Check Required,8/6/24 3:00,InProgress,Dennis Sanders <dsanders@abc-dc.com>,8/6/24 4:00,8/6/24 3:30,n
+DC8,2211,Network Device Firmware Update,Maintenance,Network Device: Firmware Upgrade Required,8/6/24 5:00,InProgress,Angela Price <aprice@abc-dc.com>,8/6/24 6:00,8/6/24 5:15,y
+DC1,2212,UPS System Test,Maintenance,Power Supply: UPS System Health Check Required,8/6/24 7:00,InProgress,Joshua Bennett <jbennett@abc-dc.com>,8/6/24 8:00,8/6/24 7:30,n
+DC5,2213,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/6/24 9:00,InProgress,Megan Wood <mwood@abc-dc.com>,8/6/24 10:00,8/6/24 9:15,y
+DC3,2214,Network Device Reset,Maintenance,Network Device: Reset Required,8/6/24 11:00,InProgress,Ryan Barnes <rbarnes@abc-dc.com>,8/6/24 12:00,8/6/24 11:30,y
+DC2,2215,Server Firmware Update,Maintenance,Server: Firmware Update Required,8/6/24 13:00,InProgress,Laura Ross <lross@abc-dc.com>,8/6/24 14:00,8/6/24 13:15,n
+DC7,2216,Power Supply Unit Replacement,BreakFix,Power Supply: Unit Replacement Required,8/6/24 15:00,InProgress,Adam Henderson <ahenderson@abc-dc.com>,8/6/24 16:00,8/6/24 15:30,y
+DC8,2217,Network Security Configuration Update,Maintenance,Network Device: Security Configuration Review,8/6/24 17:00,InProgress,Samantha Coleman <scoleman@abc-dc.com>,8/6/24 18:00,8/6/24 17:15,n
+DC1,2218,Firewall Rule Verification,Maintenance,Network Device: Firewall Rule Verification,8/6/24 19:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/6/24 20:00,8/6/24 19:15,y
+DC4,2219,Server Storage Expansion,Maintenance,Storage: Additional Storage Required,8/6/24 21:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,8/6/24 22:00,8/6/24 21:30,n
+DC5,2220,UPS Monitoring System Calibration,Maintenance,Power Supply: Monitoring System Calibration,8/6/24 23:00,InProgress,Rebecca Stewart <rstewart@abc-dc.com>,8/7/24 0:00,8/6/24 23:30,y
+DC2,2221,Network Device Configuration Review,Maintenance,Network Device: Configuration Review Required,8/7/24 1:00,InProgress,Carol Collins <ccollins@abc-dc.com>,8/7/24 2:00,8/7/24 1:15,n
+DC3,2222,Server Rack Cooling Audit,Maintenance,Environmental: Rack Cooling Issue Detected,8/7/24 3:00,InProgress,George Carter <gcarter@abc-dc.com>,8/7/24 4:00,8/7/24 3:15,y
+DC6,2223,Firewall Security Rules Audit,Maintenance,Network Device: Firewall Security Audit Required,8/7/24 5:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,8/7/24 6:00,8/7/24 5:30,n
+DC1,2224,UPS System Firmware Update,Maintenance,Power Supply: Firmware Update Required,8/7/24 7:00,InProgress,Joshua Perez <jperez@abc-dc.com>,8/7/24 8:00,8/7/24 7:15,y
+DC5,2225,Server OS Security Audit,Maintenance,Server: OS Security Audit Required,8/7/24 9:00,InProgress,Kimberly Roberts <kroberts@abc-dc.com>,8/7/24 10:00,8/7/24 9:15,n
+DC7,2226,Power Supply Unit Inspection,Maintenance,Power Supply: Unit Inspection Required,8/7/24 11:00,InProgress,Brian Evans <bevans@abc-dc.com>,8/7/24 12:00,8/7/24 11:15,n
+DC3,2227,Server Disk Health Check,Maintenance,Storage: Disk Health Monitoring Required,8/7/24 13:00,InProgress,Melissa Watson <mwatson@abc-dc.com>,8/7/24 14:00,8/7/24 13:30,y
+DC6,2228,Firewall Intrusion Detection Test,Maintenance,Network Device: Intrusion Detection System Test Required,8/7/24 15:00,InProgress,Eric Brooks <ebrooks@abc-dc.com>,8/7/24 16:00,8/7/24 15:15,n
+DC2,2229,Network Cable Replacement,Maintenance,Network Device: Cable Replacement Required,8/7/24 17:00,InProgress,Amy Kelly <akelly@abc-dc.com>,8/7/24 18:00,8/7/24 17:30,y
+DC1,2230,Server OS Upgrade,Maintenance,Server: Operating System Upgrade Required,8/7/24 19:00,InProgress,Dennis Sanders <dsanders@abc-dc.com>,8/7/24 20:00,8/7/24 19:15,n
+DC4,2231,Power Distribution Unit Health Check,Maintenance,Power Supply: PDU Health Monitoring Required,8/7/24 21:00,InProgress,Angela Price <aprice@abc-dc.com>,8/7/24 22:00,8/7/24 21:30,y
+DC8,2232,Firewall Firmware Verification,Maintenance,Network Device: Firmware Integrity Check,8/7/24 23:00,InProgress,Joshua Bennett <jbennett@abc-dc.com>,8/8/24 0:00,8/7/24 23:30,n
+DC5,2233,Server Disk Replacement,Maintenance,Storage: Disk Replacement Required,8/8/24 1:00,InProgress,Megan Wood <mwood@abc-dc.com>,8/8/24 2:00,8/8/24 1:15,y
+DC3,2234,Network Device Hard Reset,Maintenance,Network Device: Hard Reset Required,8/8/24 3:00,InProgress,Ryan Barnes <rbarnes@abc-dc.com>,8/8/24 4:00,8/8/24 3:30,n
+DC2,2235,Server Security Patch,Maintenance,Server: Security Patch Required,8/8/24 5:00,InProgress,Laura Ross <lross@abc-dc.com>,8/8/24 6:00,8/8/24 5:15,y
+DC7,2236,Power Supply Voltage Test,Maintenance,Power Supply: Voltage Test Required,8/8/24 7:00,InProgress,Adam Henderson <ahenderson@abc-dc.com>,8/8/24 8:00,8/8/24 7:30,n
+DC4,2237,Network Security Audit,Maintenance,Network Device: Security Audit Required,8/8/24 9:00,InProgress,Samantha Coleman <scoleman@abc-dc.com>,8/8/24 10:00,8/8/24 9:15,y
+DC8,2238,Server Cooling System Repair,Maintenance,Environmental: Cooling System Repair Required,8/8/24 11:00,InProgress,Kevin Turner <kturner@abc-dc.com>,8/8/24 12:00,8/8/24 11:15,n
+DC6,2239,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/8/24 13:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,8/8/24 14:00,8/8/24 13:15,y
+DC1,2240,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/8/24 15:00,InProgress,Rebecca Stewart <rstewart@abc-dc.com>,8/8/24 16:00,8/8/24 15:15,n
+DC2,2241,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/8/24 17:00,InProgress,Carol Collins <ccollins@abc-dc.com>,8/8/24 18:00,8/8/24 17:15,y
+DC3,2242,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/8/24 19:00,InProgress,George Carter <gcarter@abc-dc.com>,8/8/24 20:00,8/8/24 19:15,n
+DC5,2243,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/8/24 21:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,8/8/24 22:00,8/8/24 21:15,y
+DC4,2244,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/8/24 23:00,InProgress,Joshua Perez <jperez@abc-dc.com>,8/9/24 0:00,8/8/24 23:15,n
+DC7,2245,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/9/24 1:00,InProgress,Kimberly Roberts <kroberts@abc-dc.com>,8/9/24 2:00,8/9/24 1:15,y
+DC8,2246,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/9/24 3:00,InProgress,Brian Evans <bevans@abc-dc.com>,8/9/24 4:00,8/9/24 3:30,n
+DC1,2247,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/9/24 5:00,InProgress,Melissa Watson <mwatson@abc-dc.com>,8/9/24 6:00,8/9/24 5:15,y
+DC3,2248,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/9/24 7:00,InProgress,Eric Brooks <ebrooks@abc-dc.com>,8/9/24 8:00,8/9/24 7:15,n
+DC6,2249,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/9/24 9:00,InProgress,Amy Kelly <akelly@abc-dc.com>,8/9/24 10:00,8/9/24 9:15,y
+DC2,2250,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/9/24 11:00,InProgress,Dennis Sanders <dsanders@abc-dc.com>,8/9/24 12:00,8/9/24 11:15,n
+DC1,2271,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC2,2272,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 3:00,Resolved,Justin Max <jmax@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC3,2273,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 5:00,Resolved,Justin Max <jmax@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC4,2274,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/13/24 7:00,Resolved,Justin Max <jmax@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC5,2275,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 9:00,Resolved,Justin Max <jmax@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC6,2276,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 1:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2277,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 3:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2278,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 5:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2279,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 7:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2280,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 9:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2281,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 1:00,Resolved,John Doe <jdoe@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC4,2282,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 3:00,Resolved,John Doe <jdoe@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC5,2283,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC6,2284,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 7:00,Resolved,John Doe <jdoe@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC7,2285,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 9:00,Resolved,John Doe <jdoe@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC8,2286,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 1:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2287,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 3:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2288,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 5:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2289,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 7:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2290,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 9:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC5,2291,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 1:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC6,2292,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 3:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC7,2293,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 5:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC8,2294,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 7:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC1,2295,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 9:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC2,2296,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 1:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2297,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 3:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2298,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 5:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2299,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 7:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2300,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 9:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2301,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 1:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC8,2302,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 3:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC1,2303,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 5:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC2,2304,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 7:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC3,2305,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 9:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC4,2306,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2307,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2308,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2309,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2310,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2311,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 1:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC2,2312,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/13/24 3:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC3,2313,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 5:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC4,2314,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 7:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC5,2315,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 9:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC6,2316,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 1:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2317,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2318,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2319,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2320,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2321,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 1:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC4,2322,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/13/24 3:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC5,2323,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 5:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC6,2324,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/13/24 7:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC7,2325,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 9:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC8,2326,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 1:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2327,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 3:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2328,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 5:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2329,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 7:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2330,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 9:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC5,2331,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 1:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC6,2332,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 3:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC7,2333,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 5:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC8,2334,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/13/24 7:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC1,2335,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 9:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC2,2336,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 1:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2337,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 3:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2338,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 5:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2339,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 7:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2340,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 9:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2341,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 1:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC8,2342,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 3:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC1,2343,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 5:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC2,2344,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 7:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC3,2345,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 9:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC4,2346,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 1:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2347,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 3:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2348,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 5:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2349,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 7:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2350,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 9:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2351,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 1:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC2,2352,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 3:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC3,2353,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 5:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC4,2354,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 7:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC5,2355,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 9:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC6,2356,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 1:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2357,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 3:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2358,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 5:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2359,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 7:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2360,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 9:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2361,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 1:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC4,2362,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 3:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC5,2363,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 5:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC6,2364,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 7:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC7,2365,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 9:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC8,2366,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2367,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2368,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2369,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2370,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC5,2371,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 1:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC6,2372,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/13/24 3:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC7,2373,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 5:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC8,2374,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 7:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC1,2375,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 9:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC2,2376,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 1:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2377,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2378,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2379,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2380,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2381,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 1:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC8,2382,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/13/24 3:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC1,2383,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 5:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC2,2384,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/13/24 7:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC3,2385,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 9:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC4,2386,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 1:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2387,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 3:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2388,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 5:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2389,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 7:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2390,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 9:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2391,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 1:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC2,2392,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 3:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC3,2393,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 5:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC4,2394,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/13/24 7:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC5,2395,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 9:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC6,2396,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 1:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2397,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 3:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2398,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 5:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2399,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 7:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2400,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 9:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2401,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 1:00,Resolved,Andrew King <aking@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC4,2402,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 3:00,Resolved,Andrew King <aking@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC5,2403,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 5:00,Resolved,Andrew King <aking@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC6,2404,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/13/24 7:00,Resolved,Andrew King <aking@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC7,2405,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/13/24 9:00,Resolved,Andrew King <aking@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC8,2406,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 1:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2407,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 3:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2408,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 5:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2409,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 7:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2410,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 9:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC5,2411,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 1:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC6,2412,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 3:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC7,2413,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 5:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC8,2414,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/13/24 7:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC1,2415,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/13/24 9:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC2,2416,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 1:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2417,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 3:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2418,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 5:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2419,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 7:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2420,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 9:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2421,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 1:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC8,2422,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 3:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC1,2423,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 5:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC2,2424,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/13/24 7:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC3,2425,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/13/24 9:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC4,2426,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2427,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2428,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2429,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2430,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2431,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/13/24 1:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/13/24 2:00,8/13/24 1:45
+DC2,2432,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/13/24 3:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/13/24 4:00,8/13/24 3:30
+DC3,2433,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/13/24 5:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/13/24 6:00,8/13/24 5:50
+DC4,2434,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/13/24 7:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/13/24 8:00,8/13/24 7:40
+DC5,2435,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/13/24 9:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/13/24 10:00,8/13/24 9:35
+DC6,2436,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 1:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2437,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2438,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2439,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2440,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2441,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2442,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2443,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2444,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC5,2445,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,InProgress,Chris Evans <cevans@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC6,2446,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Hold,Patricia Johnson <pjohnson@abc-dc.com>,,
+DC7,2447,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 1:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC8,2448,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 3:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC1,2449,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 5:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2451,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 9:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC4,2452,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2453,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2454,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,InProgress,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2455,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2456,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC2,2458,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 3:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2459,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 5:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2460,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 7:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC5,2461,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 9:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2463,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2464,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2465,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2466,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,InProgress,Lisa Young <lyoung@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2467,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 1:00,Resolved,Andrew King <aking@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC4,2468,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 3:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC5,2469,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 5:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2471,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 9:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2472,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 1:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2473,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 3:00,InProgress,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2474,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 5:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2475,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 7:00,Resolved,George Carter <gcarter@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2476,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 9:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC6,2478,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC7,2479,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC8,2480,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2482,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 1:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2483,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 3:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2484,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 5:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2485,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 7:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2486,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 9:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2488,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 3:00,Resolved,Michelle Morris <mmorris@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC1,2489,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 5:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC2,2490,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 7:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC3,2491,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 9:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC4,2492,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 1:00,InProgress,Helen Morgan <hmorgan@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2493,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 3:00,Resolved,Mark Bell <mbell@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2494,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 5:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2495,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 7:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2496,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 9:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2497,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 1:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2498,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 3:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2499,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 5:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2500,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 7:00,Resolved,Jessica Ward <jward@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2502,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 1:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2503,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 3:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2504,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 5:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2505,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 7:00,Resolved,Scott James <sjames@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2506,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 9:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2507,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 1:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC4,2508,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 3:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC5,2509,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 5:00,Resolved,Dennis Sanders <dsanders@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC6,2510,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 7:00,Resolved,Angela Price <aprice@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC7,2511,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 9:00,InProgress,Joshua Bennett <jbennett@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2512,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2513,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2514,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,Laura Ross <lross@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2515,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2516,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC5,2517,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 1:00,InProgress,David Saenz <dsaenz@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC6,2518,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 3:00,Resolved,Justin Max <jmax@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC7,2519,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 5:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC8,2520,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 7:00,Resolved,John Doe <jdoe@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC1,2521,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 9:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC2,2522,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 1:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2523,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2524,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2525,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2526,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2528,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 3:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC1,2529,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 5:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC2,2530,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 7:00,Resolved,William Taylor <wtaylor@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC3,2531,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 9:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC4,2532,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 1:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2533,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 3:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2534,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 5:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2535,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 7:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2536,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 9:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2537,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2538,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2539,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2540,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC5,2541,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC6,2542,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 1:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2543,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 3:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2544,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 5:00,Resolved,Andrew King <aking@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2545,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 7:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2546,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 9:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2547,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 1:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC4,2548,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 3:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC5,2549,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 5:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC6,2550,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 7:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC7,2551,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 9:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2552,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 1:00,Resolved,George Carter <gcarter@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2553,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 3:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2554,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 5:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC3,2555,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 7:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC4,2556,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 9:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC6,2558,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 3:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC7,2559,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 5:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC8,2560,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 7:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC1,2561,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 9:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC2,2562,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 1:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC3,2563,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 3:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC4,2564,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 5:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC5,2565,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 7:00,Resolved,Michelle Morris <mmorris@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2566,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 9:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC7,2567,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 1:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC8,2568,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 3:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC1,2569,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 5:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC2,2570,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 7:00,Resolved,Mark Bell <mbell@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC3,2571,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 9:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC4,2572,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 1:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC5,2573,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC6,2574,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC7,2575,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 7:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC8,2576,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 9:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC1,2577,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 1:00,Resolved,Jessica Ward <jward@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2578,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 3:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2579,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 5:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2580,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 7:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC5,2581,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 9:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC6,2582,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 1:00,Resolved,Scott James <sjames@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC7,2583,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 3:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC8,2584,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 5:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2585,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 7:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC2,2586,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 9:00,Resolved,Dennis Sanders <dsanders@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC3,2587,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 1:00,Resolved,Angela Price <aprice@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC4,2588,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 3:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC5,2589,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 5:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC6,2590,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 7:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC7,2591,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 9:00,Resolved,Laura Ross <lross@abc-dc.com>,8/14/24 10:00,8/14/24 9:35
+DC8,2592,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 1:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC1,2593,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 3:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC2,2594,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 5:00,Resolved,David Saenz <dsaenz@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC1,2595,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2596,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/14/24 4:00,8/14/24 3:30
+DC3,2597,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/14/24 6:00,8/14/24 5:50
+DC4,2598,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,InProgress,Jane Doe <janedoe@abc-dc.com>,8/14/24 8:00,8/14/24 7:40
+DC6,2600,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2601,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC8,2602,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 16:00,8/14/24 15:30
+DC1,2603,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC2,2604,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/14/24 20:00,8/14/24 19:35
+DC3,2605,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/14/24 22:00,8/14/24 21:35
+DC4,2606,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/15/24 00:00,8/14/24 23:30
+DC5,2607,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 01:00,InProgress,William Taylor <wtaylor@abc-dc.com>,8/14/24 02:00,8/14/24 01:45
+DC6,2608,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 03:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 04:00,8/14/24 03:30
+DC7,2609,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 05:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/14/24 06:00,8/14/24 05:50
+DC8,2610,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 07:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 08:00,8/14/24 07:40
+DC1,2611,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 09:00,Resolved,Richard Jackson <rjackson@abc-dc.com>,8/14/24 10:00,8/14/24 09:35
+DC2,2612,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 12:00,8/14/24 11:35
+DC3,2613,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/14/24 14:00,8/14/24 13:35
+DC4,2614,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 16:00,8/14/24 15:35
+DC5,2615,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,InProgress,Charles Clark <cclark@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC7,2617,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/14/24 22:00,8/14/24 21:35
+DC8,2618,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/15/24 00:00,8/14/24 23:35
+DC1,2619,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 01:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/14/24 02:00,8/14/24 01:35
+DC2,2620,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 03:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 04:00,8/14/24 03:35
+DC3,2621,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 05:00,Resolved,Andrew King <aking@abc-dc.com>,8/14/24 06:00,8/14/24 05:35
+DC4,2622,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 07:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 08:00,8/14/24 07:35
+DC5,2623,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 09:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/14/24 10:00,8/14/24 09:35
+DC1,2624,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 11:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC2,2625,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 13:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC3,2626,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 15:00,Resolved,Dorothy Baker <dbaker@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC4,2627,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 17:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC5,2628,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 19:00,InProgress,Sandra Nelson <snelson@abc-dc.com>,8/14/24 20:00,8/14/24 19:35
+DC7,2630,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 23:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/15/24 00:00,8/14/24 23:45
+DC8,2631,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 01:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/14/24 02:00,8/14/24 01:45
+DC1,2632,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 03:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/14/24 04:00,8/14/24 03:45
+DC2,2633,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 05:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/14/24 06:00,8/14/24 05:45
+DC3,2634,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 07:00,Resolved,Shirley Phillips <sphillips@abc-dc.com>,8/14/24 08:00,8/14/24 07:45
+DC4,2635,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 09:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/14/24 10:00,8/14/24 09:45
+DC5,2636,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 11:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC6,2637,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 13:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC7,2638,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 15:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC8,2639,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 17:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC1,2640,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 19:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC3,2642,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 23:00,Resolved,Michelle Morris <mmorris@abc-dc.com>,8/15/24 00:00,8/14/24 23:45
+DC4,2643,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 01:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/14/24 02:00,8/14/24 01:45
+DC5,2644,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 03:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/14/24 04:00,8/14/24 03:45
+DC6,2645,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 05:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/14/24 06:00,8/14/24 05:45
+DC7,2646,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 07:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/14/24 08:00,8/14/24 07:45
+DC8,2647,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 09:00,Resolved,Mark Bell <mbell@abc-dc.com>,8/14/24 10:00,8/14/24 09:45
+DC1,2648,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 11:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC2,2649,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 13:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC3,2650,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 15:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC4,2651,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 17:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC5,2652,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 19:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2654,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 23:00,Resolved,Jessica Ward <jward@abc-dc.com>,8/15/24 00:00,8/14/24 23:45
+DC8,2655,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 01:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/14/24 02:00,8/14/24 01:45
+DC1,2656,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 03:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/14/24 04:00,8/14/24 03:45
+DC2,2657,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 05:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/14/24 06:00,8/14/24 05:45
+DC3,2658,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 07:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/14/24 08:00,8/14/24 07:45
+DC4,2659,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 09:00,Resolved,Scott James <sjames@abc-dc.com>,8/14/24 10:00,8/14/24 09:45
+DC5,2660,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 11:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC6,2661,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 13:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC7,2662,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 15:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC8,2663,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 17:00,Resolved,Dennis Sanders <dsanders@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC1,2664,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 19:00,Resolved,Angela Price <aprice@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC2,2665,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 21:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC3,2666,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 23:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/15/24 00:00,8/14/24 23:45
+DC4,2667,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 01:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/14/24 02:00,8/14/24 01:45
+DC5,2668,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 03:00,Resolved,Laura Ross <lross@abc-dc.com>,8/14/24 04:00,8/14/24 03:45
+DC6,2669,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 05:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/14/24 06:00,8/14/24 05:45
+DC7,2670,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 07:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/14/24 08:00,8/14/24 07:45
+DC8,2671,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 09:00,Resolved,David Saenz <dsaenz@abc-dc.com>,8/14/24 10:00,8/14/24 09:45
+DC1,2672,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2673,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,InProgress,Emily Smith <esmith@abc-dc.com>,,
+DC3,2674,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2675,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Hold,Jane Doe <janedoe@abc-dc.com>,,
+DC5,2676,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Chris Evans <cevans@abc-dc.com>,,
+DC6,2677,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2678,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Hold,Michael Brown <mbrown@abc-dc.com>,,
+DC8,2679,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC1,2680,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC2,2681,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Created,Sarah Wilson <swilson@abc-dc.com>,,
+DC3,2682,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2683,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Mary Anderson <manderson@abc-dc.com>,,
+DC5,2684,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Hold,William Taylor <wtaylor@abc-dc.com>,,
+DC6,2685,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2686,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2687,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC1,2688,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Richard Jackson <rjackson@abc-dc.com>,,
+DC2,2689,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2690,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,InProgress,Joseph Lee <jlee@abc-dc.com>,,
+DC4,2691,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2692,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Hold,Charles Clark <cclark@abc-dc.com>,,
+DC6,2693,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2694,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2695,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Created,Jessica Hall <jhall@abc-dc.com>,,
+DC1,2696,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2697,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2698,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Andrew King <aking@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2699,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2700,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Paul Scott <pscott@abc-dc.com>,,
+DC6,2701,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2702,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC8,2703,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Hold,Dorothy Baker <dbaker@abc-dc.com>,,
+DC1,2704,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC2,2705,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC3,2706,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,George Carter <gcarter@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2707,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,,
+DC5,2708,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC6,2709,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2710,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2711,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Hold,Shirley Phillips <sphillips@abc-dc.com>,,
+DC1,2712,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC2,2713,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2714,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC4,2715,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2716,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,,
+DC6,2717,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2718,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2719,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Hold,Michelle Morris <mmorris@abc-dc.com>,,
+DC1,2720,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2721,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2722,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2723,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2724,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Mark Bell <mbell@abc-dc.com>,,
+DC6,2725,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2726,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC8,2727,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC1,2728,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,InProgress,Donald Cooper <dcooper@abc-dc.com>,,
+DC2,2729,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC3,2730,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2731,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Hold,Jessica Ward <jward@abc-dc.com>,,
+DC5,2732,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC6,2733,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2734,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2735,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC1,2736,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,Scott James <sjames@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC2,2737,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2738,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC4,2739,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2740,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Hold,Dennis Sanders <dsanders@abc-dc.com>,,
+DC6,2741,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Angela Price <aprice@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2742,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2743,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Megan Wood <mwood@abc-dc.com>,,
+DC1,2744,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2745,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Laura Ross <lross@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2746,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2747,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2748,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,David Saenz <dsaenz@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC1,2672,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2673,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,InProgress,Emily Smith <esmith@abc-dc.com>,,
+DC3,2674,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2675,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Hold,Jane Doe <janedoe@abc-dc.com>,,
+DC5,2676,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Chris Evans <cevans@abc-dc.com>,,
+DC6,2677,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2678,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Hold,Michael Brown <mbrown@abc-dc.com>,,
+DC8,2679,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC1,2680,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC2,2681,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Created,Sarah Wilson <swilson@abc-dc.com>,,
+DC3,2682,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2683,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Mary Anderson <manderson@abc-dc.com>,,
+DC5,2684,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Hold,William Taylor <wtaylor@abc-dc.com>,,
+DC6,2685,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2686,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2687,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC1,2688,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Richard Jackson <rjackson@abc-dc.com>,,
+DC2,2689,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2690,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,InProgress,Joseph Lee <jlee@abc-dc.com>,,
+DC4,2691,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2692,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Hold,Charles Clark <cclark@abc-dc.com>,,
+DC6,2693,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2694,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2695,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Created,Jessica Hall <jhall@abc-dc.com>,,
+DC1,2696,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2697,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2698,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Andrew King <aking@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2699,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2700,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Paul Scott <pscott@abc-dc.com>,,
+DC6,2701,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2702,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC8,2703,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Hold,Dorothy Baker <dbaker@abc-dc.com>,,
+DC1,2704,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/14/24 18:00,8/14/24 17:45
+DC2,2705,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC3,2706,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,George Carter <gcarter@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2707,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,,
+DC5,2708,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC6,2709,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2710,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2711,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Hold,Shirley Phillips <sphillips@abc-dc.com>,,
+DC1,2712,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC2,2713,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2714,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC4,2715,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2716,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,,
+DC6,2717,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2718,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2719,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Hold,Michelle Morris <mmorris@abc-dc.com>,,
+DC1,2720,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2721,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2722,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2723,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2724,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Created,Mark Bell <mbell@abc-dc.com>,,
+DC6,2725,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC7,2726,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC8,2727,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC1,2728,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,InProgress,Donald Cooper <dcooper@abc-dc.com>,,
+DC2,2729,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC3,2730,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC4,2731,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,Hold,Jessica Ward <jward@abc-dc.com>,,
+DC5,2732,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC6,2733,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC7,2734,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC8,2735,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC1,2736,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,Scott James <sjames@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC2,2737,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/14/24 11:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/14/24 12:00,8/14/24 11:45
+DC3,2738,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/14/24 13:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/14/24 14:00,8/14/24 13:45
+DC4,2739,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/14/24 15:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/14/24 16:00,8/14/24 15:45
+DC5,2740,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/14/24 17:00,Hold,Dennis Sanders <dsanders@abc-dc.com>,,
+DC6,2741,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/14/24 19:00,Resolved,Angela Price <aprice@abc-dc.com>,8/14/24 20:00,8/14/24 19:45
+DC7,2742,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/14/24 21:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/14/24 22:00,8/14/24 21:45
+DC8,2743,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/14/24 23:00,InProgress,Megan Wood <mwood@abc-dc.com>,,
+DC1,2744,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/14/24 1:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/14/24 2:00,8/14/24 1:45
+DC2,2745,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/14/24 3:00,Resolved,Laura Ross <lross@abc-dc.com>,8/14/24 4:00,8/14/24 3:45
+DC3,2746,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/14/24 5:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/14/24 6:00,8/14/24 5:45
+DC4,2747,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/14/24 7:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/14/24 8:00,8/14/24 7:45
+DC5,2748,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/14/24 9:00,Resolved,David Saenz <dsaenz@abc-dc.com>,8/14/24 10:00,8/14/24 9:45
+DC1,2749,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/19/24 1:00,Resolved,Justin Max <jmax@abc-dc.com>,8/19/24 2:00,8/19/24 1:45
+DC2,2750,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/19/24 3:00,InProgress,Emily Smith <esmith@abc-dc.com>,,
+DC3,2751,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/19/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/19/24 6:00,8/19/24 5:45
+DC4,2752,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/19/24 7:00,Hold,Jane Doe <janedoe@abc-dc.com>,,
+DC5,2753,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/19/24 9:00,Created,Chris Evans <cevans@abc-dc.com>,,
+DC6,2754,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/19/24 11:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/19/24 12:00,8/19/24 11:45
+DC7,2755,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/19/24 13:00,Hold,Michael Brown <mbrown@abc-dc.com>,,
+DC8,2756,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/19/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/19/24 16:00,8/19/24 15:45
+DC1,2757,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/19/24 17:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/19/24 18:00,8/19/24 17:45
+DC2,2758,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/19/24 19:00,Created,Sarah Wilson <swilson@abc-dc.com>,,
+DC3,2759,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/19/24 21:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/19/24 22:00,8/19/24 21:45
+DC4,2760,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/19/24 23:00,InProgress,Mary Anderson <manderson@abc-dc.com>,,
+DC5,2761,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/19/24 1:00,Hold,William Taylor <wtaylor@abc-dc.com>,,
+DC6,2762,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/19/24 3:00,Resolved,Elizabeth Thomas <ethomas@abc-dc.com>,8/19/24 4:00,8/19/24 3:45
+DC7,2763,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/19/24 5:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/19/24 6:00,8/19/24 5:45
+DC8,2764,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/19/24 7:00,Resolved,Barbara Moore <bmoore@abc-dc.com>,8/19/24 8:00,8/19/24 7:45
+DC1,2765,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/19/24 9:00,Created,Richard Jackson <rjackson@abc-dc.com>,,
+DC2,2766,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/19/24 11:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/19/24 12:00,8/19/24 11:45
+DC3,2767,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/19/24 13:00,InProgress,Joseph Lee <jlee@abc-dc.com>,,
+DC4,2768,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/19/24 15:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/19/24 16:00,8/19/24 15:45
+DC5,2769,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/19/24 17:00,Hold,Charles Clark <cclark@abc-dc.com>,,
+DC6,2770,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/19/24 19:00,Resolved,Emily Lewis <elewis@abc-dc.com>,8/19/24 20:00,8/19/24 19:45
+DC7,2771,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/19/24 21:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/19/24 22:00,8/19/24 21:45
+DC8,2772,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/19/24 23:00,Created,Jessica Hall <jhall@abc-dc.com>,,
+DC1,2773,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/19/24 1:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/19/24 2:00,8/19/24 1:45
+DC2,2774,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/19/24 3:00,Resolved,Lisa Young <lyoung@abc-dc.com>,8/19/24 4:00,8/19/24 3:45
+DC3,2775,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/19/24 5:00,Resolved,Andrew King <aking@abc-dc.com>,8/19/24 6:00,8/19/24 5:45
+DC4,2776,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/19/24 7:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/19/24 8:00,8/19/24 7:45
+DC5,2777,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/19/24 9:00,Created,Paul Scott <pscott@abc-dc.com>,,
+DC6,2778,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/19/24 11:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/19/24 12:00,8/19/24 11:45
+DC7,2779,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/19/24 13:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/19/24 14:00,8/19/24 13:45
+DC8,2780,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/19/24 15:00,Hold,Dorothy Baker <dbaker@abc-dc.com>,,
+DC1,2781,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/19/24 17:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/19/24 18:00,8/19/24 17:45
+DC2,2782,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/19/24 19:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/19/24 20:00,8/19/24 19:45
+DC3,2783,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/19/24 21:00,Resolved,George Carter <gcarter@abc-dc.com>,8/19/24 22:00,8/19/24 21:45
+DC4,2784,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/19/24 23:00,InProgress,Ashley Mitchell <amitchell@abc-dc.com>,,
+DC5,2785,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/19/24 1:00,Resolved,Joshua Perez <jperez@abc-dc.com>,8/19/24 2:00,8/19/24 1:45
+DC6,2786,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/19/24 3:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/19/24 4:00,8/19/24 3:45
+DC7,2787,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/19/24 5:00,Resolved,Kevin Turner <kturner@abc-dc.com>,8/19/24 6:00,8/19/24 5:45
+DC8,2788,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/19/24 7:00,Hold,Shirley Phillips <sphillips@abc-dc.com>,,
+DC1,2789,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/19/24 9:00,Resolved,Edward Campbell <ecampbell@abc-dc.com>,8/19/24 10:00,8/19/24 9:45
+DC2,2790,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/19/24 11:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/19/24 12:00,8/19/24 11:45
+DC3,2791,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/19/24 13:00,Resolved,Brian Evans <bevans@abc-dc.com>,8/19/24 14:00,8/19/24 13:45
+DC4,2792,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/19/24 15:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/19/24 16:00,8/19/24 15:45
+DC5,2793,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/19/24 17:00,InProgress,Frank Edwards <fedwards@abc-dc.com>,,
+DC6,2794,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/19/24 19:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/19/24 20:00,8/19/24 19:45
+DC7,2795,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/19/24 21:00,Resolved,Gary Sanchez <gsanchez@abc-dc.com>,8/19/24 22:00,8/19/24 21:45
+DC8,2796,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/19/24 23:00,Hold,Michelle Morris <mmorris@abc-dc.com>,,
+DC1,2797,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/19/24 1:00,Resolved,Ronald Rogers <rrogers@abc-dc.com>,8/19/24 2:00,8/19/24 1:45
+DC2,2798,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/19/24 3:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/19/24 4:00,8/19/24 3:45
+DC3,2799,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/19/24 5:00,Resolved,Anthony Cook <acook@abc-dc.com>,8/19/24 6:00,8/19/24 5:45
+DC4,2800,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/19/24 7:00,Resolved,Helen Morgan <hmorgan@abc-dc.com>,8/19/24 8:00,8/19/24 7:45
+DC5,2801,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/19/24 9:00,Created,Mark Bell <mbell@abc-dc.com>,,
+DC6,2802,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/19/24 11:00,Resolved,Deborah Murphy <dmurphy@abc-dc.com>,8/19/24 12:00,8/19/24 11:45
+DC7,2803,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/19/24 13:00,Resolved,Larry Bailey <lbailey@abc-dc.com>,8/19/24 14:00,8/19/24 13:45
+DC8,2804,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/19/24 15:00,Resolved,Jennifer Rivera <jrivera@abc-dc.com>,8/19/24 16:00,8/19/24 15:45
+DC1,2805,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/19/24 17:00,InProgress,Donald Cooper <dcooper@abc-dc.com>,,
+DC2,2806,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/19/24 19:00,Resolved,Cynthia Richardson <crichardson@abc-dc.com>,8/19/24 20:00,8/19/24 19:45
+DC3,2807,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/19/24 21:00,Resolved,Stephen Cox <scox@abc-dc.com>,8/19/24 22:00,8/19/24 21:45
+DC4,2808,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/19/24 23:00,Hold,Jessica Ward <jward@abc-dc.com>,,
+DC5,2809,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC6,2810,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Brenda Peterson <bpeterson@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2811,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Jason Gray <jgray@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2812,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Catherine Ramirez <cramirez@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2813,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,Scott James <sjames@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC2,2814,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2815,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,Eric Brooks <ebrooks@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC4,2816,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Amy Kelly <akelly@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC5,2817,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Hold,Dennis Sanders <dsanders@abc-dc.com>,,
+DC6,2818,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Angela Price <aprice@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC7,2819,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Joshua Bennett <jbennett@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC8,2820,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,InProgress,Megan Wood <mwood@abc-dc.com>,,
+DC1,2821,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2822,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Laura Ross <lross@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC3,2823,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Adam Henderson <ahenderson@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2824,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC5,2825,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,David Saenz <dsaenz@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC6,2826,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Justin Max <jmax@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2827,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC8,2828,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2829,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,Jane Doe <janedoe@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC2,2830,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Created,Chris Evans <cevans@abc-dc.com>,,
+DC3,2831,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2832,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,InProgress,Michael Brown <mbrown@abc-dc.com>,,
+DC1,2833,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Susan Martin <smartin@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2834,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,InProgress,Brian Evans <bevans@abc-dc.com>,,
+DC3,2835,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Karen Harris <kharris@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2836,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Hold,Paul Scott <pscott@abc-dc.com>,,
+DC5,2837,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,Eric Brooks <ebrooks@abc-dc.com>,,
+DC6,2838,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2839,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Hold,David Hernandez <dhernandez@abc-dc.com>,,
+DC8,2840,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Kenneth Gonzalez <kgonzalez@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2841,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,Margaret Green <mgreen@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC2,2842,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Created,Steven Adams <sadams@abc-dc.com>,,
+DC3,2843,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2844,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,InProgress,Emily Smith <esmith@abc-dc.com>,,
+DC5,2845,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Hold,Charles Clark <cclark@abc-dc.com>,,
+DC6,2846,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,James Martinez <jmartinez@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2847,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2848,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Ashley Mitchell <amitchell@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2849,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,Daniel Walker <dwalker@abc-dc.com>,,
+DC2,2850,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Laura Reed <lreed@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2851,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,InProgress,William Taylor <wtaylor@abc-dc.com>,,
+DC4,2852,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC5,2853,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Hold,Carol Collins <ccollins@abc-dc.com>,,
+DC6,2854,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC7,2855,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Justin Max <jmax@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC8,2856,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Created,Sandra Nelson <snelson@abc-dc.com>,,
+DC1,2857,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2858,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC3,2859,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Chris Evans <cevans@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2860,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Ryan Barnes <rbarnes@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC5,2861,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,Jessica Hall <jhall@abc-dc.com>,,
+DC6,2862,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2863,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Hold,David Saenz <dsaenz@abc-dc.com>,,
+DC8,2864,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Linda Davis <ldavis@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2865,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,InProgress,Kevin Turner <kturner@abc-dc.com>,,
+DC2,2866,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Joseph Lee <jlee@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC3,2867,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Patricia Johnson <pjohnson@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2868,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Created,Karen Harris <kharris@abc-dc.com>,,
+DC5,2869,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Daniel Walker <dwalker@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC6,2870,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2871,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Mary Anderson <manderson@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2872,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Timothy Morgan <tmorgan@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2873,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,George Carter <gcarter@abc-dc.com>,,
+DC2,2874,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Megan Wood <mwood@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2875,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,InProgress,Larry Bailey <lbailey@abc-dc.com>,,
+DC4,2876,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Paul Scott <pscott@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC5,2877,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Hold,Lisa Young <lyoung@abc-dc.com>,,
+DC6,2878,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Amanda Parker <aparker@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC7,2879,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Donald Cooper <dcooper@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC8,2880,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Created,Amy Kelly <akelly@abc-dc.com>,,
+DC1,2881,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Steven Adams <sadams@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2882,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Melissa Watson <mwatson@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC3,2883,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2884,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Carol Collins <ccollins@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC5,2885,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,Adam Henderson <ahenderson@abc-dc.com>,,
+DC6,2886,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Betty Wright <bwright@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2887,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Hold,Jessica Hall <jhall@abc-dc.com>,,
+DC8,2888,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Matthew Allen <mallen@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2889,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,InProgress,Emily Lewis <elewis@abc-dc.com>,,
+DC2,2890,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC3,2891,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Samantha Coleman <scoleman@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2892,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Created,Linda Davis <ldavis@abc-dc.com>,,
+DC5,2893,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Michael Brown <mbrown@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC6,2894,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2895,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Robert Garcia <rgarcia@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2896,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Frank Edwards <fedwards@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2897,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Created,William Taylor <wtaylor@abc-dc.com>,,
+DC2,2898,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2899,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Hold,John Doe <jdoe@abc-dc.com>,,
+DC4,2900,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2901,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2902,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC3,2903,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2904,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC5,2905,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC6,2906,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2907,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC8,2908,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2909,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC2,2910,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC3,2911,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2912,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/21/24 00:00,8/20/24 23:45
+DC5,2913,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC6,2914,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2915,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2916,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2917,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC2,2918,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2919,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC4,2920,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC5,2921,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC6,2922,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC7,2923,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC8,2924,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Resolved,George Carter <gcarter@abc-dc.com>,8/21/24 00:00,8/20/24 23:45
+DC1,2925,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC2,2926,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC3,2927,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC4,2928,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC5,2929,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC6,2930,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC7,2931,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC8,2932,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC1,2933,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC2,2934,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC3,2935,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC4,2936,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/21/24 00:00,8/20/24 23:45
+DC5,2937,Firewall Configuration Review,Maintenance,Network Device: Configuration Review Required,8/20/24 1:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 2:00,8/20/24 1:45
+DC6,2938,Server Rack Inspection,Maintenance,Environmental: Rack Inspection Required,8/20/24 3:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/20/24 4:00,8/20/24 3:45
+DC7,2939,Power Distribution Unit Replacement,Maintenance,Power Supply: PDU Replacement Required,8/20/24 5:00,Resolved,John Doe <jdoe@abc-dc.com>,8/20/24 6:00,8/20/24 5:45
+DC8,2940,Firewall Rule Update,Maintenance,Network Device: Firewall Rule Modification Required,8/20/24 7:00,Resolved,Sandra Nelson <snelson@abc-dc.com>,8/20/24 8:00,8/20/24 7:45
+DC1,2941,UPS System Battery Check,Maintenance,Power Supply: Battery Health Check Required,8/20/24 9:00,Resolved,Jessica Hall <jhall@abc-dc.com>,8/20/24 10:00,8/20/24 9:45
+DC2,2942,Network Device Firmware Upgrade,Maintenance,Network Device: Firmware Upgrade Required,8/20/24 11:00,Resolved,David Hernandez <dhernandez@abc-dc.com>,8/20/24 12:00,8/20/24 11:45
+DC3,2943,Server OS Security Patch,Maintenance,Server: Security Patch Installation Required,8/20/24 13:00,Resolved,Rebecca Stewart <rstewart@abc-dc.com>,8/20/24 14:00,8/20/24 13:45
+DC4,2944,Power Supply Backup Test,Maintenance,Power Supply: Backup System Health Check Required,8/20/24 15:00,Resolved,George Carter <gcarter@abc-dc.com>,8/20/24 16:00,8/20/24 15:45
+DC5,2945,Firewall Intrusion Detection System Update,Maintenance,Network Device: IDS Update Required,8/20/24 17:00,Resolved,Emily Smith <esmith@abc-dc.com>,8/20/24 18:00,8/20/24 17:45
+DC6,2946,Server Memory Upgrade,Maintenance,Server: Memory Upgrade Required,8/20/24 19:00,Resolved,Charles Clark <cclark@abc-dc.com>,8/20/24 20:00,8/20/24 19:45
+DC7,2947,Network Security Patch,Maintenance,Network Device: Security Patch Installation Required,8/20/24 21:00,Resolved,Sarah Wilson <swilson@abc-dc.com>,8/20/24 22:00,8/20/24 21:45
+DC8,2948,Server Redundancy Check,Maintenance,Server: Redundancy Test Required,8/20/24 23:00,Resolved,Kimberly Roberts <kroberts@abc-dc.com>,8/21/24 00:00,8/20/24 23:45
