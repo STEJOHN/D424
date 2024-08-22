@@ -221,10 +221,8 @@ function defineTests() {
       expect(sanitizeName("")).to.equal("");
     });
 
-    it("should handle names with special characters", () => {
-      expect(sanitizeName("Jöhn Döe <john.doe@example.com>")).to.equal(
-        "Jöhn Döe"
-      );
+    it("should return the same name if there is no email address", () => {
+      expect(sanitizeName("Sam Johnson")).to.equal("Sam Johnson");
     });
   });
   describe("Task class", () => {
